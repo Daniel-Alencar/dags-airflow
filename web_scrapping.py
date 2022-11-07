@@ -56,7 +56,7 @@ class Web_Scrapping:
     time.sleep(1)
 
   # Retorna um dicionário com os valores correspondentes
-  def get_model_prices(self, anos, meses, marca, modelo, anos_modelo):
+  def get_vehicle_information(self, marca, modelo):
 
     vehicle_information = {
       "marca": marca,
@@ -64,10 +64,10 @@ class Web_Scrapping:
       "anos": {}
     }
 
-    for ano_busca in anos:
+    for ano_busca in self.anos:
       vehicle_information['anos'][ano_busca] = {}
 
-      for mes_busca in meses:
+      for mes_busca in self.meses:
         vehicle_information['anos'][ano_busca][mes_busca] = {}
 
         # Seleciona o input do periodo
@@ -104,11 +104,11 @@ class Web_Scrapping:
         self.driver.find_element(By.CSS_SELECTOR, selectors_html.item_model_selector).click()
         time.sleep(1)
 
-        for ano_modelo_busca in anos_modelo:
+        for ano_modelo_busca in self.anos_modelo:
 
           print(f"Ano_modelo: {ano_modelo_busca}")
 
-          if ano_modelo_busca == anos_modelo[0]:
+          if ano_modelo_busca == self.anos_modelo[0]:
             # Selecionar seletor dos anos-modelo
             self.driver.find_element(By.CSS_SELECTOR, selectors_html.year_model_selector).click()
             time.sleep(1)
@@ -159,40 +159,61 @@ class Web_Scrapping:
 
     return vehicle_information
 
+
+
+
+  # Leitura de Json com veiculos para buscar
+  # Identificador básico: [marca][modelo_base][modelo_especifico]
+  def get_vehicles_to_search(self):
+    self.vehicles_to_search = util.read_json("json/vehicles_to_search.json")
+
+  # Leitura de Json com as informações dos veiculos
+  def get_vehicles_with_price(self):
+    self.vehicles_with_price = util.read_json("json/vehicles_with_price.json")
+
+  # Leitura de Json com indices de busca
+  # marca, modelo_base e modelo_especifico
+  def get_indices_de_busca(self):
+    self.indices_de_busca = util.read_json("json/indices_de_busca.json")
+
+
+
+
+
+  def update_vehicles_with_price(self):
+    with open("json/vehicles_with_price.json", "w") as jsonFile:
+      json.dump(self.vehicles_with_price, jsonFile, indent=2)
+  
+
+
+
   # Faz a execução do Web Scrapping de acordo com o que desejamos
   def execution(self):
-    # Identificador básico: [marca][modelo_base][modelo_especifico]
-    vehicles_to_search = util.read_json("json/vehicles_to_search.json")
-    vehicles_with_price = util.read_json("json/vehicles_with_price.json")
-    # Busca dos indices de: marca, modelo_base e modelo_especifico
-    indices_de_busca = util.read_json("json/indices_de_busca.json")
-    print(indices_de_busca)
+    print(self.indices_de_busca)
 
     self.setup()
-    while util.check_indexes(vehicles_to_search, indices_de_busca):
-      vehicle_information = self.get_model_prices(
-        self.anos, 
-        self.meses, 
-        vehicles_to_search
-          [indices_de_busca["marca"]]["marca"],
-        vehicles_to_search
-          [indices_de_busca["marca"]]["modelos_base"]
-          [indices_de_busca["modelo_base"]]
-          [indices_de_busca["modelo_especifico"]],
-        self.anos_modelo
+    while util.check_indexes(self.vehicles_to_search, self.indices_de_busca):
+      vehicle_information = self.get_vehicle_information(
+        
+        # marca
+        self.vehicles_to_search
+          [self.indices_de_busca["marca"]]["marca"],
+        
+        # modelo
+        self.vehicles_to_search
+          [self.indices_de_busca["marca"]]["modelos_base"]
+          [self.indices_de_busca["modelo_base"]]
+          [self.indices_de_busca["modelo_especifico"]]
       )
 
-      vehicle_information_formatted = json.dumps(vehicle_information, indent=2)
-      print(vehicle_information_formatted)
+      util.print_formatted_json(vehicle_information)
 
-      vehicles_with_price.append(vehicle_information)
-      with open("json/vehicles_with_price.json", "w") as jsonFile:
-        json.dump(vehicles_with_price, jsonFile, indent=2)
-      print("\n=======================\n")
+      self.vehicles_with_price.append(vehicle_information)
+      self.update_vehicles_with_price()
 
-      if util.update_indexes(vehicles_to_search, indices_de_busca) == False:
+      if util.update_indexes(self.vehicles_to_search, self.indices_de_busca) == False:
         break
-      indices_de_busca = util.read_json("json/indices_de_busca.json")
+      self.get_indices_de_busca()
 
     # Fechamento de execução do web_scrapping
     self.driver.quit()

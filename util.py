@@ -5,6 +5,13 @@ def read_json(path):
     json_object = json.load(jsonFile)
   return json_object
 
+def print_formatted_json(jsonObject):
+  print(json.dumps(jsonObject, indent=2))
+
+
+
+
+
 def check_indexes(vehicles_to_search, indices_de_busca):
   try:
     print(
