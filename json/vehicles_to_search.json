@@ -1,0 +1,22 @@
+[
+  {
+    "marca": "VolksWagen",
+    "modelos_base": [
+      [
+        "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x2 Die",
+        "AMAROK Comfor. CD 2.0 TDI 4x4 Dies. Aut.",
+        "AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel"
+      ]
+    ]
+  },
+  {
+    "marca": "Fiat",
+    "modelos_base": [
+      [
+        "ARGO 1.0 6V Flex.",
+        "ARGO DRIVE 1.0 6V Flex",
+        "ARGO PRECISION 1.8 16V Flex Aut."
+      ]
+    ]
+  }
+]

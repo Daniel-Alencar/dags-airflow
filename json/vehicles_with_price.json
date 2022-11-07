@@ -1,0 +1,71 @@
+[
+  {
+    "marca": "VolksWagen",
+    "modelo": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x2 Die",
+    "anos": {
+      "2020": {
+        "janeiro": {}
+      }
+    }
+  },
+  {
+    "marca": "VolksWagen",
+    "modelo": "AMAROK Comfor. CD 2.0 TDI 4x4 Dies. Aut.",
+    "anos": {
+      "2020": {
+        "janeiro": {
+          "2020": "R$ 150.424,00",
+          "zero": "R$ 175.320,00"
+        }
+      }
+    }
+  },
+  {
+    "marca": "VolksWagen",
+    "modelo": "AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel",
+    "anos": {
+      "2020": {
+        "janeiro": {
+          "2020": "R$ 115.544,00",
+          "zero": "R$ 129.535,00"
+        }
+      }
+    }
+  },
+  {
+    "marca": "Fiat",
+    "modelo": "ARGO 1.0 6V Flex.",
+    "anos": {
+      "2020": {
+        "janeiro": {
+          "2020": "R$ 41.665,00",
+          "zero": "R$ 47.171,00"
+        }
+      }
+    }
+  },
+  {
+    "marca": "Fiat",
+    "modelo": "ARGO DRIVE 1.0 6V Flex",
+    "anos": {
+      "2020": {
+        "janeiro": {
+          "2020": "R$ 43.993,00",
+          "zero": "R$ 50.895,00"
+        }
+      }
+    }
+  },
+  {
+    "marca": "Fiat",
+    "modelo": "ARGO PRECISION 1.8 16V Flex Aut.",
+    "anos": {
+      "2020": {
+        "janeiro": {
+          "2020": "R$ 61.126,00",
+          "zero": "R$ 66.023,00"
+        }
+      }
+    }
+  }
+]
