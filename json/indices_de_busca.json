@@ -1,1 +1,5 @@
-{"marca": null, "modelo_base": null, "modelo_especifico": null}
+{
+  "marca": 0,
+  "modelo_base": 0,
+  "modelo_especifico": 0
+}

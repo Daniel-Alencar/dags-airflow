@@ -56,7 +56,7 @@ class Web_Scrapping:
     time.sleep(1)
 
   # Retorna um dicionário com os valores correspondentes
-  def get_vehicle_information(self, marca, modelo):
+  def search_vehicle_information(self, marca, modelo):
 
     vehicle_information = {
       "marca": marca,
@@ -180,20 +180,70 @@ class Web_Scrapping:
 
 
 
-  def update_vehicles_with_price(self):
+
+  def check_indexes(self):
+    try:
+      print(
+        self.vehicles_to_search
+          [self.indices_de_busca["marca"]]["modelos_base"]
+          [self.indices_de_busca["modelo_base"]]
+          [self.indices_de_busca["modelo_especifico"]]
+      )
+    except:
+      return False
+    return True
+
+
+
+
+
+
+  def update_vehicles_with_price_json(self):
     with open("json/vehicles_with_price.json", "w") as jsonFile:
       json.dump(self.vehicles_with_price, jsonFile, indent=2)
   
+  def update_indices_de_busca_json(self):
+    with open("json/indices_de_busca.json", "w") as jsonFile:
+      json.dump(self.indices_de_busca, jsonFile, indent=2)
 
+
+
+
+
+
+  def update_indexes(self):
+    self.indices_de_busca["modelo_especifico"] += 1
+    indexes_OK = self.check_indexes()
+
+    if indexes_OK == False:
+      self.indices_de_busca["modelo_base"] += 1
+      self.indices_de_busca["modelo_especifico"] = 0
+      indexes_OK = self.check_indexes()
+
+      if indexes_OK == False:
+        self.indices_de_busca["marca"] += 1
+        self.indices_de_busca["modelo_base"] = 0
+        self.indices_de_busca["modelo_especifico"] = 0
+        indexes_OK = self.check_indexes()
+
+        if indexes_OK == False:
+          self.indices_de_busca["marca"] = None
+          self.indices_de_busca["modelo_base"] = None
+          self.indices_de_busca["modelo_especifico"] = None
+
+    print(self.indices_de_busca)
+    self.update_indices_de_busca_json()
+
+    return indexes_OK
 
 
   # Faz a execução do Web Scrapping de acordo com o que desejamos
   def execution(self):
-    print(self.indices_de_busca)
-
     self.setup()
-    while util.check_indexes(self.vehicles_to_search, self.indices_de_busca):
-      vehicle_information = self.get_vehicle_information(
+
+    print(self.indices_de_busca)
+    while self.check_indexes():
+      vehicle_information = self.search_vehicle_information(
         
         # marca
         self.vehicles_to_search
@@ -205,15 +255,13 @@ class Web_Scrapping:
           [self.indices_de_busca["modelo_base"]]
           [self.indices_de_busca["modelo_especifico"]]
       )
-
       util.print_formatted_json(vehicle_information)
 
       self.vehicles_with_price.append(vehicle_information)
-      self.update_vehicles_with_price()
+      self.update_vehicles_with_price_json()
 
-      if util.update_indexes(self.vehicles_to_search, self.indices_de_busca) == False:
+      if self.update_indexes() == False:
         break
-      self.get_indices_de_busca()
 
     # Fechamento de execução do web_scrapping
     self.driver.quit()
