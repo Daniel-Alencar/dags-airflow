@@ -166,15 +166,18 @@ class Web_Scrapping:
   # Identificador básico: [marca][modelo_base][modelo_especifico]
   def get_vehicles_to_search(self):
     self.vehicles_to_search = util.read_json("json/vehicles_to_search.json")
+    util.print_formatted_json(self.vehicles_to_search)
 
   # Leitura de Json com as informações dos veiculos
   def get_vehicles_with_price(self):
     self.vehicles_with_price = util.read_json("json/vehicles_with_price.json")
+    util.print_formatted_json(self.vehicles_with_price)
 
   # Leitura de Json com indices de busca
   # marca, modelo_base e modelo_especifico
   def get_indices_de_busca(self):
     self.indices_de_busca = util.read_json("json/indices_de_busca.json")
+    util.print_formatted_json(self.indices_de_busca)
 
 
 
