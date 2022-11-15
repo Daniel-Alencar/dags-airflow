@@ -24,7 +24,7 @@ def isValido(task_instance):
       return 'task_3'
     return 'task_4'
 
-with DAG('new_teste', start_date = datetime(2022,5,23),
+with DAG('teste1', start_date = datetime(2022,5,23),
          schedule_interval = '30 * * * *', catchup = False) as dag:
   # Task de execução de scripts python
   T1 = PythonOperator(
