@@ -3,6 +3,8 @@ import json
 import util
 import selectors_html
 
+from MongoDBWeb import MongoDBWeb
+
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -13,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class Web_Scrapping:
   # Constructor
-  def __init__(self):
+  def __init__(self, indices_de_busca, vehicles_to_search):
     # Site onde sera realizado o web scrapping
     self.url = "https://veiculos.fipe.org.br/"
 
@@ -34,11 +36,16 @@ class Web_Scrapping:
     self.driver = webdriver.Firefox(options=option)
     self.wait = WebDriverWait(self.driver, 10)
 
+    self.mongoWeb = MongoDBWeb()
+
+    self.indices_de_busca = indices_de_busca
+    self.vehicles_to_search = vehicles_to_search
+
   # Configura inicialmente o web_scrapping
   def setup(self):
     # Carregar a página
     self.driver.get(self.url)
-    time.sleep(3)
+    time.sleep(1)
 
     # Zoom In
     self.driver.set_context("chrome")
@@ -72,7 +79,7 @@ class Web_Scrapping:
 
         # Seleciona o input do periodo
         self.driver.find_element(By.CSS_SELECTOR, selectors_html.input_time_period_selector).send_keys(f"{mes_busca}/{ano_busca}")
-        time.sleep(3)
+        time.sleep(1)
 
         # Seleciona o primeiro item do período
         elemento = self.wait.until(
@@ -121,13 +128,13 @@ class Web_Scrapping:
             input.send_keys(Keys.BACK_SPACE)
 
           input.send_keys(str(ano_modelo_busca))
-          time.sleep(3)
+          time.sleep(1)
 
           # Pega todos os filhos da <ul> de anos-modelo
           ul_year_model_element = self.driver.find_element(By.CSS_SELECTOR, selectors_html.ul_year_model_selector)
           ul_year_model_element_children = ul_year_model_element.find_elements(By.XPATH, "./*")
 
-          time.sleep(3)
+          time.sleep(1)
         
           if(ul_year_model_element_children[0].get_attribute("class") == 'no-results'):
             print(f"Quantidade de anos-modelo: 0")
@@ -165,21 +172,16 @@ class Web_Scrapping:
   # Leitura de Json com veiculos para buscar
   # Identificador básico: [marca][modelo_base][modelo_especifico]
   def get_vehicles_to_search(self):
-    self.vehicles_to_search = util.read_json("json/vehicles_to_search.json")
-    util.print_formatted_json(self.vehicles_to_search)
+    self.vehicles_to_search = util.read_json("/home/engenheiro/airflow/dags/json/vehicles_to_search.json")
 
   # Leitura de Json com as informações dos veiculos
   def get_vehicles_with_price(self):
-    self.vehicles_with_price = util.read_json("json/vehicles_with_price.json")
-    util.print_formatted_json(self.vehicles_with_price)
+    self.vehicles_with_price = util.read_json("/home/engenheiro/airflow/dags/json/vehicles_with_price.json")
 
   # Leitura de Json com indices de busca
   # marca, modelo_base e modelo_especifico
   def get_indices_de_busca(self):
-    self.indices_de_busca = util.read_json("json/indices_de_busca.json")
-    util.print_formatted_json(self.indices_de_busca)
-
-
+    self.indices_de_busca = self.mongoWeb.get_indexes()
 
 
 
@@ -195,24 +197,6 @@ class Web_Scrapping:
     except:
       return False
     return True
-
-
-
-
-
-
-  def update_vehicles_with_price_json(self):
-    with open("json/vehicles_with_price.json", "w") as jsonFile:
-      json.dump(self.vehicles_with_price, jsonFile, indent=2)
-  
-  def update_indices_de_busca_json(self):
-    with open("json/indices_de_busca.json", "w") as jsonFile:
-      json.dump(self.indices_de_busca, jsonFile, indent=2)
-
-
-
-
-
 
   def update_indexes(self):
     self.indices_de_busca["modelo_especifico"] += 1
@@ -235,9 +219,23 @@ class Web_Scrapping:
           self.indices_de_busca["modelo_especifico"] = None
 
     print(self.indices_de_busca)
-    self.update_indices_de_busca_json()
+    self.update_indices_de_busca_client()
 
     return indexes_OK
+
+  def update_indices_de_busca_client(self):
+    self.mongoWeb.update_indexes(
+      self.indices_de_busca['marca'],
+      self.indices_de_busca['modelo_base'],
+      self.indices_de_busca['modelo_especifico']
+    )
+
+
+
+  def update_vehicles_with_price_json(self):
+    with open("/home/engenheiro/airflow/dags/json/vehicles_with_price.json", "w") as jsonFile:
+      json.dump(self.vehicles_with_price, jsonFile, indent=2)
+
 
 
   # Faz a execução do Web Scrapping de acordo com o que desejamos
