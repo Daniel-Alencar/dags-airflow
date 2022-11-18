@@ -41,25 +41,25 @@ dag = DAG(
 )
 
 task_1 = PythonOperator(
-  task_id = 'task_1',
+  task_id = 'get_indices_de_busca',
   python_callable = get_indices_de_busca,
   dag = dag
 )
 
 task_2 = PythonOperator(
-  task_id = 'task_2',
+  task_id = 'get_vehicles_to_search',
   python_callable = get_vehicles_to_search,
   dag = dag
 )
 
 task_3 = PythonOperator(
-  task_id = 'task_3',
+  task_id = 'run_web_scrapping',
   python_callable = run_web_scrapping,
   dag = dag
 )
 
 task_4 = PythonOperator(
-  task_id = 'task_4',
+  task_id = 'save_BD',
   python_callable = save_BD,
   dag = dag
 )
