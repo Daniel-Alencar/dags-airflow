@@ -4,6 +4,7 @@ import util
 import selectors_html
 
 from MongoDBWeb import MongoDBWeb
+from settings import anos, meses, anos_modelo, vehicles_to_search_path, vehicles_with_price_path
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -15,31 +16,52 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class Web_Scrapping:
   # Constructor
-  def __init__(self, indices_de_busca, vehicles_to_search):
-    # Site onde sera realizado o web scrapping
+  def __init__(
+    self, 
+    indices_de_busca, 
+    vehicles_to_search,
+    computer_id,
+    number_of_computers
+  ):
+    # Site onde será realizado o web scrapping
     self.url = "https://veiculos.fipe.org.br/"
 
-    self.anos = [
-      2020
-    ]
-    self.meses = [
-      "janeiro"
-    ]
-
-    self.anos_modelo = [
-      2020, 2021, "zero"
-    ]
+    self.anos = anos
+    self.meses = meses
+    self.anos_modelo = anos_modelo
 
     option = Options()
     option.headless = False
-
     self.driver = webdriver.Firefox(options=option)
     self.wait = WebDriverWait(self.driver, 10)
 
-    self.mongoWeb = MongoDBWeb()
-
     self.indices_de_busca = indices_de_busca
     self.vehicles_to_search = vehicles_to_search
+    self.computer_id = computer_id
+    self.vehicles_with_price = []
+
+    self.vehicles_to_search_length = len(vehicles_to_search)
+    self.number_of_computers = number_of_computers
+
+    self.mongoWeb = MongoDBWeb(self.vehicles_to_search_length, number_of_computers)
+
+    self.update_boundaries()
+  
+  # PODE DAR PROBLEMA
+  def update_boundaries(self):
+    self.boundaries_for_computers = []
+    number_of_indexes = int(self.vehicles_to_search_length / self.number_of_computers)
+
+    for computer_id in range(self.number_of_computers):
+      boundary = number_of_indexes * (computer_id + 1)
+
+      if computer_id == (self.number_of_computers - 1):
+        self.boundaries_for_computers.append(self.vehicles_to_search_length)
+      else:
+        self.boundaries_for_computers.append(boundary)
+    
+    print("Boundaries for computers:", self.boundaries_for_computers)
+
 
   # Configura inicialmente o web_scrapping
   def setup(self):
@@ -68,14 +90,11 @@ class Web_Scrapping:
     vehicle_information = {
       "marca": marca,
       "modelo": modelo,
-      "anos": {}
+      "anos_modelo": {}
     }
 
     for ano_busca in self.anos:
-      vehicle_information['anos'][ano_busca] = {}
-
       for mes_busca in self.meses:
-        vehicle_information['anos'][ano_busca][mes_busca] = {}
 
         # Seleciona o input do periodo
         self.driver.find_element(By.CSS_SELECTOR, selectors_html.input_time_period_selector).send_keys(f"{mes_busca}/{ano_busca}")
@@ -112,6 +131,8 @@ class Web_Scrapping:
         time.sleep(1)
 
         for ano_modelo_busca in self.anos_modelo:
+
+          vehicle_information["anos_modelo"][ano_modelo_busca] = []
 
           print(f"Ano_modelo: {ano_modelo_busca}")
 
@@ -151,7 +172,9 @@ class Web_Scrapping:
 
             # Pegar o preço do veiculo
             price = self.driver.find_element(By.CSS_SELECTOR, selectors_html.price_vehicle).text
-            vehicle_information['anos'][ano_busca][mes_busca][ano_modelo_busca] = price
+            vehicle_information["anos_modelo"][ano_modelo_busca].append({
+              f"{mes_busca}/{ano_busca}": price
+            })
 
             print(f"Preço: {price}\n")
 
@@ -172,17 +195,11 @@ class Web_Scrapping:
   # Leitura de Json com veiculos para buscar
   # Identificador básico: [marca][modelo_base][modelo_especifico]
   def get_vehicles_to_search(self):
-    self.vehicles_to_search = util.read_json("/home/engenheiro/airflow/dags/json/vehicles_to_search.json")
+    self.vehicles_to_search = util.read_json(vehicles_to_search_path)
 
   # Leitura de Json com as informações dos veiculos
   def get_vehicles_with_price(self):
-    self.vehicles_with_price = util.read_json("/home/engenheiro/airflow/dags/json/vehicles_with_price.json")
-
-  # Leitura de Json com indices de busca
-  # marca, modelo_base e modelo_especifico
-  def get_indices_de_busca(self):
-    self.indices_de_busca = self.mongoWeb.get_indexes()
-
+    self.vehicles_with_price = util.read_json(vehicles_with_price_path)
 
 
 
@@ -197,7 +214,16 @@ class Web_Scrapping:
     except:
       return False
     return True
+  
+  def check_indexes_boundary(self):
+    marca = self.indices_de_busca["marca"]
 
+    maximum = self.boundaries_for_computers[self.computer_id]
+    if (marca < maximum):
+      return True
+    return False
+
+  # PODE DAR PROBLEMA
   def update_indexes(self):
     self.indices_de_busca["modelo_especifico"] += 1
     indexes_OK = self.check_indexes()
@@ -212,38 +238,36 @@ class Web_Scrapping:
         self.indices_de_busca["modelo_base"] = 0
         self.indices_de_busca["modelo_especifico"] = 0
         indexes_OK = self.check_indexes()
+        boundary_OK = self.check_indexes_boundary()
 
-        if indexes_OK == False:
+        if (indexes_OK == False) or (boundary_OK == False):
           self.indices_de_busca["marca"] = None
           self.indices_de_busca["modelo_base"] = None
           self.indices_de_busca["modelo_especifico"] = None
 
     print(self.indices_de_busca)
-    self.update_indices_de_busca_client()
+    self.update_indices_de_busca_BD()
 
     return indexes_OK
 
-  def update_indices_de_busca_client(self):
-    self.mongoWeb.update_indexes(
-      self.indices_de_busca['marca'],
-      self.indices_de_busca['modelo_base'],
-      self.indices_de_busca['modelo_especifico']
-    )
+  def update_indices_de_busca_BD(self):
+    self.mongoWeb.update_indexes(self.computer_id, self.indices_de_busca)
 
 
 
   def update_vehicles_with_price_json(self):
-    with open("/home/engenheiro/airflow/dags/json/vehicles_with_price.json", "w") as jsonFile:
+    with open(vehicles_with_price_path, "w") as jsonFile:
       json.dump(self.vehicles_with_price, jsonFile, indent=2)
 
 
-
-  # Faz a execução do Web Scrapping de acordo com o que desejamos
-  def execution(self):
+  # Faz a execução do Web Scrapping
+  def execution(self, mini_batch):
     self.setup()
 
+    execution_times = 0
+    
     print(self.indices_de_busca)
-    while self.check_indexes():
+    while (self.check_indexes() and execution_times < mini_batch):
       vehicle_information = self.search_vehicle_information(
         
         # marca
@@ -261,6 +285,7 @@ class Web_Scrapping:
       self.vehicles_with_price.append(vehicle_information)
       self.update_vehicles_with_price_json()
 
+      execution_times += 1
       if self.update_indexes() == False:
         break
 

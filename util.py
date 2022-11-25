@@ -7,3 +7,7 @@ def read_json(path):
 
 def print_formatted_json(jsonObject):
   print(json.dumps(jsonObject, indent=2))
+
+def clear_json(jsonPath):
+  with open(jsonPath, "w") as jsonFile:
+    json.dump([], jsonFile)
