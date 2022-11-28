@@ -23,7 +23,7 @@ def execute_web_scrapping():
 
 
 dag = DAG(
-  dag_id = "web_scrapping7",
+  dag_id = "web_scrapping3",
   start_date = dt.datetime(year=2022, month=11, day=5),
   end_date = dt.datetime(year=2022, month=11, day=10),
   catchup = False

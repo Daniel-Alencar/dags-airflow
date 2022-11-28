@@ -27,7 +27,7 @@ def execute_web_scrapping(task_instance):
 
 
 dag = DAG(
-  dag_id = "web_scrapping6",
+  dag_id = "web_scrapping2",
   start_date = dt.datetime(year=2022, month=11, day=5),
   end_date = dt.datetime(year=2022, month=11, day=20),
   catchup = False

@@ -13,7 +13,7 @@ def execution():
   web.execution()
 
 dag = DAG(
-  dag_id = "web_scrapping5",
+  dag_id = "web_scrapping1",
   start_date = dt.datetime(year=2022, month=11, day=5),
   end_date = dt.datetime(year=2022, month=11, day=10),
   catchup = False
