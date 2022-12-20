@@ -19,6 +19,38 @@ Esse projeto visa montar uma base de dados da tabela FIPE. Os veículos que ser�
 Para rodar esta aplicação, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Python + pip](https://www.python.org/downloads/), [virtualenv](https://virtualenv.pypa.io/en/latest/) e [Firefox](https://www.mozilla.org/pt-BR/firefox/new/).
 
+### Passo-a-passo
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/GkingOficial/Web-Scrapping
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Web-Scrapping
+
+# Crie um ambiente virtual para instalar as dependências
+$ virtualenv myENV
+
+# Entre no ambiente virtual
+$ source myENV/bin/activate
+
+# Instale as dependências
+$ pip3 install -r requirements.txt
+
+```
+
+O selenium (que é uma biblioteca que estamos utilizando) trabalha por baixo dos panos com um navegador de internet. Para este projeto, escolhemos o navegador Firefox, por ser mais comum nos computadores. Então, para que o projeto funcione, é necessário que você tenha instalado esse navegador em seu computador.
+
+Após isto, você deve baixar o [Geckodriver (do Firefox)](https://github.com/mozilla/geckodriver/releases) referente ao seu sistema operacional. Como especificado na imagem abaixo:
+
+<img 
+  src="./assets/geckodriver.png"
+  alt="Geckodriver"
+/>
+
+Extraia o arquivo, e você obterá outro arquivo chamado 'geckodriver'.
+
+Mova o geckodriver para o ambiente virtual myENV que foi criado anteriormente. Especificamente, você deve movê-lo para a pasta /myENV/bin.
 
 ### Execução
 
@@ -28,13 +60,24 @@ Antes de tudo, abra o arquivo settings.py e configure as seguintes variáveis:
 - mini_batch: Representa a quantidade de modelos que serão pesquisados em cada execução da aplicação;
 - anos: Define os anos de busca na tabela FIPE;
 - meses: Define os meses de busca na tabela FIPE;
-- anos_modelo: Define os anos_modelo de busca na Tabela FIPE;
-- vehicles_to_search_path: Define o caminho absoluto do arquivo vehicles_to_search.json no computador;
-- vehicles_with_price_path: Define o caminho absoluto do arquivo vehicles_with_price.json no computador.
+- anos_modelo: Define os anos_modelo de busca na Tabela FIPE.
 
-Em seguida, execute a aplicação em seu Airflow. No programa, o arquivo de execução se chama 'Execution_web_scrapping'.
+```bash
+# Verifique o primeiro indice de busca que seu computador irá buscar
+$ python3 Execution1.py
 
-Você pode acompanhar a busca sendo feita pelo LOG da própria execução das tarefas no Airflow.
+# Execute a aplicação
+$ python3 Execution2.py
+```
+
+Você pode acompanhar a busca sendo feita pelo terminal da própria execução.
+
+Após o termino da execução, você pode visualizar os dados atualizados no banco de dados através do seguinte comando:
+
+```bash
+# Para visualizar os dados atualizados no MongoDB
+$ python3 Execution3.py
+```
 
 ### Autor
 

@@ -11,3 +11,7 @@ def print_formatted_json(jsonObject):
 def clear_json(jsonPath):
   with open(jsonPath, "w") as jsonFile:
     json.dump([], jsonFile)
+
+def update_json(jsonPath, jsonObject):
+  with open(jsonPath, "w", encoding="utf8") as jsonFile:
+    json.dump(jsonObject, jsonFile, indent=2)

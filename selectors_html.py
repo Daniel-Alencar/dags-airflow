@@ -56,3 +56,6 @@ item_year_model_selector = '#selectAnocarro_chosen > div > ul > li:nth-child(1)'
 
 # Seletor do preço
 price_vehicle = '#resultadoConsultacarroFiltros > table > tbody > tr.last > td:nth-child(2) > p'
+
+# Seletor da <ul> das marcas
+ul_brand_model_element_selector = "#selectMarcacarro_chosen > div:nth-child(2) > ul:nth-child(2)"

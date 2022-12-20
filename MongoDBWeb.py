@@ -1,5 +1,10 @@
-from pymongo import MongoClient
+import pandas
 import util
+
+from bson.json_util import dumps
+
+from pymongo import MongoClient
+from settings import structure_columns, verbose
 
 class MongoDBWeb:
   def __init__(self, vehicles_to_search_length=[], number_of_computers=0):
@@ -24,7 +29,6 @@ class MongoDBWeb:
     for computer_id in range(self.number_of_computers):
       indices.append({
         "id": computer_id,
-        "ativo": False,
         "marca": computer_id * number_of_indexes,
         "modelo_base": 0,
         "modelo_especifico": 0
@@ -60,7 +64,31 @@ class MongoDBWeb:
     documents_list = self.collection.find({})
     for document in documents_list:
       document.pop('_id')
-      util.print_formatted_json(document)
+      if verbose:
+        util.print_formatted_json(document)
 
   def delete_all(self):
     self.collection.delete_many({})
+      
+  def generate_csv(self):
+    value = self.collection.find_one({"site": "Fipe"})
+    value.pop('_id')
+    value.pop('site')
+
+    structure = pandas.DataFrame(columns = structure_columns)
+    
+    for vehicle in value['vehicles']:
+      data = [vehicle['marca'], vehicle['modelo']]
+      for year in vehicle['anos_modelo'].keys():
+        data.append(year)
+        for month in vehicle['anos_modelo'][year]:
+          price = list(month.values())
+          data.append(price[0])
+
+        new = pandas.DataFrame([data], columns = structure_columns)
+        structure = pandas.concat([structure, new])
+
+        structure.fillna(value = "NULL", axis = 1, inplace = True)
+        del data[2 : ]
+    
+    structure.to_csv("data.csv", index = False, header = True)
