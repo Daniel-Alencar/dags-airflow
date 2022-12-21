@@ -1,1 +1,1334 @@
-[]
+[
+  {
+    "marca": "Renault",
+    "modelo": "LOGAN Authentique Hi-Flex 1.6 8V 4p",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": null
+        },
+        {
+          "fevereiro/2015": null
+        },
+        {
+          "mar\u00e7o/2015": null
+        },
+        {
+          "abril/2015": null
+        },
+        {
+          "maio/2015": null
+        },
+        {
+          "junho/2015": null
+        },
+        {
+          "julho/2015": null
+        },
+        {
+          "agosto/2015": null
+        },
+        {
+          "setembro/2015": null
+        },
+        {
+          "outubro/2015": null
+        },
+        {
+          "novembro/2015": null
+        },
+        {
+          "dezembro/2015": null
+        },
+        {
+          "janeiro/2016": null
+        },
+        {
+          "fevereiro/2016": null
+        },
+        {
+          "mar\u00e7o/2016": null
+        },
+        {
+          "abril/2016": null
+        },
+        {
+          "maio/2016": null
+        },
+        {
+          "junho/2016": null
+        },
+        {
+          "julho/2016": null
+        },
+        {
+          "agosto/2016": null
+        },
+        {
+          "setembro/2016": null
+        },
+        {
+          "outubro/2016": null
+        },
+        {
+          "novembro/2016": null
+        },
+        {
+          "dezembro/2016": null
+        },
+        {
+          "janeiro/2017": null
+        },
+        {
+          "fevereiro/2017": null
+        },
+        {
+          "mar\u00e7o/2017": null
+        },
+        {
+          "abril/2017": null
+        },
+        {
+          "maio/2017": null
+        },
+        {
+          "junho/2017": null
+        },
+        {
+          "julho/2017": null
+        },
+        {
+          "agosto/2017": null
+        },
+        {
+          "setembro/2017": null
+        },
+        {
+          "outubro/2017": null
+        },
+        {
+          "novembro/2017": null
+        },
+        {
+          "dezembro/2017": null
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": null
+        },
+        {
+          "fevereiro/2016": null
+        },
+        {
+          "mar\u00e7o/2016": null
+        },
+        {
+          "abril/2016": null
+        },
+        {
+          "maio/2016": null
+        },
+        {
+          "junho/2016": null
+        },
+        {
+          "julho/2016": null
+        },
+        {
+          "agosto/2016": null
+        },
+        {
+          "setembro/2016": null
+        },
+        {
+          "outubro/2016": null
+        },
+        {
+          "novembro/2016": null
+        },
+        {
+          "dezembro/2016": null
+        },
+        {
+          "janeiro/2017": null
+        },
+        {
+          "fevereiro/2017": null
+        },
+        {
+          "mar\u00e7o/2017": null
+        },
+        {
+          "abril/2017": null
+        },
+        {
+          "maio/2017": null
+        },
+        {
+          "junho/2017": null
+        },
+        {
+          "julho/2017": null
+        },
+        {
+          "agosto/2017": null
+        },
+        {
+          "setembro/2017": null
+        },
+        {
+          "outubro/2017": null
+        },
+        {
+          "novembro/2017": null
+        },
+        {
+          "dezembro/2017": null
+        },
+        {
+          "janeiro/2018": null
+        },
+        {
+          "fevereiro/2018": null
+        },
+        {
+          "mar\u00e7o/2018": null
+        },
+        {
+          "abril/2018": null
+        },
+        {
+          "maio/2018": null
+        },
+        {
+          "junho/2018": null
+        },
+        {
+          "julho/2018": null
+        },
+        {
+          "agosto/2018": null
+        },
+        {
+          "setembro/2018": null
+        },
+        {
+          "outubro/2018": null
+        },
+        {
+          "novembro/2018": null
+        },
+        {
+          "dezembro/2018": null
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": null
+        },
+        {
+          "fevereiro/2017": null
+        },
+        {
+          "mar\u00e7o/2017": null
+        },
+        {
+          "abril/2017": null
+        },
+        {
+          "maio/2017": null
+        },
+        {
+          "junho/2017": null
+        },
+        {
+          "julho/2017": null
+        },
+        {
+          "agosto/2017": null
+        },
+        {
+          "setembro/2017": null
+        },
+        {
+          "outubro/2017": null
+        },
+        {
+          "novembro/2017": null
+        },
+        {
+          "dezembro/2017": null
+        },
+        {
+          "janeiro/2018": null
+        },
+        {
+          "fevereiro/2018": null
+        },
+        {
+          "mar\u00e7o/2018": null
+        },
+        {
+          "abril/2018": null
+        },
+        {
+          "maio/2018": null
+        },
+        {
+          "junho/2018": null
+        },
+        {
+          "julho/2018": null
+        },
+        {
+          "agosto/2018": null
+        },
+        {
+          "setembro/2018": null
+        },
+        {
+          "outubro/2018": null
+        },
+        {
+          "novembro/2018": null
+        },
+        {
+          "dezembro/2018": null
+        },
+        {
+          "janeiro/2019": null
+        },
+        {
+          "fevereiro/2019": null
+        },
+        {
+          "mar\u00e7o/2019": null
+        },
+        {
+          "abril/2019": null
+        },
+        {
+          "maio/2019": null
+        },
+        {
+          "junho/2019": null
+        },
+        {
+          "julho/2019": null
+        },
+        {
+          "agosto/2019": null
+        },
+        {
+          "setembro/2019": null
+        },
+        {
+          "outubro/2019": null
+        },
+        {
+          "novembro/2019": null
+        },
+        {
+          "dezembro/2019": null
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": null
+        },
+        {
+          "fevereiro/2018": null
+        },
+        {
+          "mar\u00e7o/2018": null
+        },
+        {
+          "abril/2018": null
+        },
+        {
+          "maio/2018": null
+        },
+        {
+          "junho/2018": null
+        },
+        {
+          "julho/2018": null
+        },
+        {
+          "agosto/2018": null
+        },
+        {
+          "setembro/2018": null
+        },
+        {
+          "outubro/2018": null
+        },
+        {
+          "novembro/2018": null
+        },
+        {
+          "dezembro/2018": null
+        },
+        {
+          "janeiro/2019": null
+        },
+        {
+          "fevereiro/2019": null
+        },
+        {
+          "mar\u00e7o/2019": null
+        },
+        {
+          "abril/2019": null
+        },
+        {
+          "maio/2019": null
+        },
+        {
+          "junho/2019": null
+        },
+        {
+          "julho/2019": null
+        },
+        {
+          "agosto/2019": null
+        },
+        {
+          "setembro/2019": null
+        },
+        {
+          "outubro/2019": null
+        },
+        {
+          "novembro/2019": null
+        },
+        {
+          "dezembro/2019": null
+        },
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        },
+        {
+          "abril/2020": null
+        },
+        {
+          "maio/2020": null
+        },
+        {
+          "junho/2020": null
+        },
+        {
+          "julho/2020": null
+        },
+        {
+          "agosto/2020": null
+        },
+        {
+          "setembro/2020": null
+        },
+        {
+          "outubro/2020": null
+        },
+        {
+          "novembro/2020": null
+        },
+        {
+          "dezembro/2020": null
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": null
+        },
+        {
+          "fevereiro/2019": null
+        },
+        {
+          "mar\u00e7o/2019": null
+        },
+        {
+          "abril/2019": null
+        },
+        {
+          "maio/2019": null
+        },
+        {
+          "junho/2019": null
+        },
+        {
+          "julho/2019": null
+        },
+        {
+          "agosto/2019": null
+        },
+        {
+          "setembro/2019": null
+        },
+        {
+          "outubro/2019": null
+        },
+        {
+          "novembro/2019": null
+        },
+        {
+          "dezembro/2019": null
+        },
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        },
+        {
+          "abril/2020": null
+        },
+        {
+          "maio/2020": null
+        },
+        {
+          "junho/2020": null
+        },
+        {
+          "julho/2020": null
+        },
+        {
+          "agosto/2020": null
+        },
+        {
+          "setembro/2020": null
+        },
+        {
+          "outubro/2020": null
+        },
+        {
+          "novembro/2020": null
+        },
+        {
+          "dezembro/2020": null
+        },
+        {
+          "janeiro/2021": null
+        },
+        {
+          "fevereiro/2021": null
+        },
+        {
+          "mar\u00e7o/2021": null
+        },
+        {
+          "abril/2021": null
+        },
+        {
+          "maio/2021": null
+        },
+        {
+          "junho/2021": null
+        },
+        {
+          "julho/2021": null
+        },
+        {
+          "agosto/2021": null
+        },
+        {
+          "setembro/2021": null
+        },
+        {
+          "outubro/2021": null
+        },
+        {
+          "novembro/2021": null
+        },
+        {
+          "dezembro/2021": null
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        },
+        {
+          "abril/2020": null
+        },
+        {
+          "maio/2020": null
+        },
+        {
+          "junho/2020": null
+        },
+        {
+          "julho/2020": null
+        },
+        {
+          "agosto/2020": null
+        },
+        {
+          "setembro/2020": null
+        },
+        {
+          "outubro/2020": null
+        },
+        {
+          "novembro/2020": null
+        },
+        {
+          "dezembro/2020": null
+        },
+        {
+          "janeiro/2021": null
+        },
+        {
+          "fevereiro/2021": null
+        },
+        {
+          "mar\u00e7o/2021": null
+        },
+        {
+          "abril/2021": null
+        },
+        {
+          "maio/2021": null
+        },
+        {
+          "junho/2021": null
+        },
+        {
+          "julho/2021": null
+        },
+        {
+          "agosto/2021": null
+        },
+        {
+          "setembro/2021": null
+        },
+        {
+          "outubro/2021": null
+        },
+        {
+          "novembro/2021": null
+        },
+        {
+          "dezembro/2021": null
+        },
+        {
+          "janeiro/2022": null
+        },
+        {
+          "fevereiro/2022": null
+        },
+        {
+          "mar\u00e7o/2022": null
+        },
+        {
+          "abril/2022": null
+        },
+        {
+          "maio/2022": null
+        },
+        {
+          "junho/2022": null
+        },
+        {
+          "julho/2022": null
+        },
+        {
+          "agosto/2022": null
+        },
+        {
+          "setembro/2022": null
+        },
+        {
+          "outubro/2022": null
+        },
+        {
+          "novembro/2022": null
+        },
+        {
+          "dezembro/2022": null
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "LOGAN Authentique Hi-Flex 1.0 16V 4p",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": "R$ 28.520,00"
+        },
+        {
+          "fevereiro/2015": "R$ 28.626,00"
+        },
+        {
+          "mar\u00e7o/2015": "R$ 28.976,00"
+        },
+        {
+          "abril/2015": "R$ 29.338,00"
+        },
+        {
+          "maio/2015": "R$ 29.663,00"
+        },
+        {
+          "junho/2015": "R$ 29.524,00"
+        },
+        {
+          "julho/2015": "R$ 29.520,00"
+        },
+        {
+          "agosto/2015": "R$ 29.265,00"
+        },
+        {
+          "setembro/2015": "R$ 29.395,00"
+        },
+        {
+          "outubro/2015": "R$ 29.406,00"
+        },
+        {
+          "novembro/2015": "R$ 29.925,00"
+        },
+        {
+          "dezembro/2015": "R$ 30.603,00"
+        },
+        {
+          "janeiro/2016": "R$ 31.317,00"
+        },
+        {
+          "fevereiro/2016": "R$ 31.842,00"
+        },
+        {
+          "mar\u00e7o/2016": "R$ 31.771,00"
+        },
+        {
+          "abril/2016": "R$ 32.043,00"
+        },
+        {
+          "maio/2016": "R$ 32.308,00"
+        },
+        {
+          "junho/2016": "R$ 31.582,00"
+        },
+        {
+          "julho/2016": "R$ 30.350,00"
+        },
+        {
+          "agosto/2016": "R$ 30.764,00"
+        },
+        {
+          "setembro/2016": "R$ 30.710,00"
+        },
+        {
+          "outubro/2016": "R$ 31.119,00"
+        },
+        {
+          "novembro/2016": "R$ 30.764,00"
+        },
+        {
+          "dezembro/2016": "R$ 30.972,00"
+        },
+        {
+          "janeiro/2017": "R$ 30.826,00"
+        },
+        {
+          "fevereiro/2017": "R$ 30.318,00"
+        },
+        {
+          "mar\u00e7o/2017": "R$ 30.712,00"
+        },
+        {
+          "abril/2017": "R$ 31.587,00"
+        },
+        {
+          "maio/2017": "R$ 31.245,00"
+        },
+        {
+          "junho/2017": "R$ 31.461,00"
+        },
+        {
+          "julho/2017": "R$ 30.951,00"
+        },
+        {
+          "agosto/2017": "R$ 30.599,00"
+        },
+        {
+          "setembro/2017": "R$ 31.007,00"
+        },
+        {
+          "outubro/2017": "R$ 31.122,00"
+        },
+        {
+          "novembro/2017": "R$ 31.540,00"
+        },
+        {
+          "dezembro/2017": "R$ 31.791,00"
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": "R$ 35.885,00"
+        },
+        {
+          "fevereiro/2016": "R$ 35.779,00"
+        },
+        {
+          "mar\u00e7o/2016": "R$ 36.020,00"
+        },
+        {
+          "abril/2016": "R$ 36.086,00"
+        },
+        {
+          "maio/2016": "R$ 35.228,00"
+        },
+        {
+          "junho/2016": "R$ 35.512,00"
+        },
+        {
+          "julho/2016": "R$ 35.612,00"
+        },
+        {
+          "agosto/2016": "R$ 36.112,00"
+        },
+        {
+          "setembro/2016": "R$ 35.576,00"
+        },
+        {
+          "outubro/2016": "R$ 35.404,00"
+        },
+        {
+          "novembro/2016": "R$ 35.522,00"
+        },
+        {
+          "dezembro/2016": "R$ 35.620,00"
+        },
+        {
+          "janeiro/2017": "R$ 35.615,00"
+        },
+        {
+          "fevereiro/2017": "R$ 35.450,00"
+        },
+        {
+          "mar\u00e7o/2017": "R$ 35.549,00"
+        },
+        {
+          "abril/2017": "R$ 35.122,00"
+        },
+        {
+          "maio/2017": "R$ 35.144,00"
+        },
+        {
+          "junho/2017": "R$ 35.628,00"
+        },
+        {
+          "julho/2017": "R$ 35.186,00"
+        },
+        {
+          "agosto/2017": "R$ 35.635,00"
+        },
+        {
+          "setembro/2017": "R$ 34.966,00"
+        },
+        {
+          "outubro/2017": "R$ 34.390,00"
+        },
+        {
+          "novembro/2017": "R$ 34.342,00"
+        },
+        {
+          "dezembro/2017": "R$ 34.378,00"
+        },
+        {
+          "janeiro/2018": "R$ 34.859,00"
+        },
+        {
+          "fevereiro/2018": "R$ 35.163,00"
+        },
+        {
+          "mar\u00e7o/2018": "R$ 35.379,00"
+        },
+        {
+          "abril/2018": "R$ 35.310,00"
+        },
+        {
+          "maio/2018": "R$ 35.779,00"
+        },
+        {
+          "junho/2018": "R$ 35.160,00"
+        },
+        {
+          "julho/2018": "R$ 35.637,00"
+        },
+        {
+          "agosto/2018": "R$ 35.287,00"
+        },
+        {
+          "setembro/2018": "R$ 34.581,00"
+        },
+        {
+          "outubro/2018": "R$ 34.674,00"
+        },
+        {
+          "novembro/2018": "R$ 34.297,00"
+        },
+        {
+          "dezembro/2018": "R$ 34.096,00"
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": null
+        },
+        {
+          "fevereiro/2017": null
+        },
+        {
+          "mar\u00e7o/2017": null
+        },
+        {
+          "abril/2017": null
+        },
+        {
+          "maio/2017": null
+        },
+        {
+          "junho/2017": null
+        },
+        {
+          "julho/2017": null
+        },
+        {
+          "agosto/2017": null
+        },
+        {
+          "setembro/2017": null
+        },
+        {
+          "outubro/2017": null
+        },
+        {
+          "novembro/2017": null
+        },
+        {
+          "dezembro/2017": null
+        },
+        {
+          "janeiro/2018": null
+        },
+        {
+          "fevereiro/2018": null
+        },
+        {
+          "mar\u00e7o/2018": null
+        },
+        {
+          "abril/2018": null
+        },
+        {
+          "maio/2018": null
+        },
+        {
+          "junho/2018": "R$ 36.401,00"
+        },
+        {
+          "julho/2018": "R$ 36.899,00"
+        },
+        {
+          "agosto/2018": "R$ 37.012,00"
+        },
+        {
+          "setembro/2018": "R$ 36.271,00"
+        },
+        {
+          "outubro/2018": "R$ 35.900,00"
+        },
+        {
+          "novembro/2018": "R$ 35.716,00"
+        },
+        {
+          "dezembro/2018": "R$ 35.899,00"
+        },
+        {
+          "janeiro/2019": "R$ 35.384,00"
+        },
+        {
+          "fevereiro/2019": "R$ 34.785,00"
+        },
+        {
+          "mar\u00e7o/2019": "R$ 34.455,00"
+        },
+        {
+          "abril/2019": "R$ 34.303,00"
+        },
+        {
+          "maio/2019": "R$ 34.240,00"
+        },
+        {
+          "junho/2019": "R$ 34.198,00"
+        },
+        {
+          "julho/2019": "R$ 34.230,00"
+        },
+        {
+          "agosto/2019": "R$ 34.364,00"
+        },
+        {
+          "setembro/2019": "R$ 34.341,00"
+        },
+        {
+          "outubro/2019": "R$ 34.308,00"
+        },
+        {
+          "novembro/2019": "R$ 33.965,00"
+        },
+        {
+          "dezembro/2019": "R$ 33.985,00"
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": null
+        },
+        {
+          "fevereiro/2018": null
+        },
+        {
+          "mar\u00e7o/2018": null
+        },
+        {
+          "abril/2018": null
+        },
+        {
+          "maio/2018": null
+        },
+        {
+          "junho/2018": null
+        },
+        {
+          "julho/2018": null
+        },
+        {
+          "agosto/2018": null
+        },
+        {
+          "setembro/2018": null
+        },
+        {
+          "outubro/2018": null
+        },
+        {
+          "novembro/2018": null
+        },
+        {
+          "dezembro/2018": null
+        },
+        {
+          "janeiro/2019": null
+        },
+        {
+          "fevereiro/2019": null
+        },
+        {
+          "mar\u00e7o/2019": null
+        },
+        {
+          "abril/2019": null
+        },
+        {
+          "maio/2019": null
+        },
+        {
+          "junho/2019": null
+        },
+        {
+          "julho/2019": null
+        },
+        {
+          "agosto/2019": null
+        },
+        {
+          "setembro/2019": null
+        },
+        {
+          "outubro/2019": null
+        },
+        {
+          "novembro/2019": null
+        },
+        {
+          "dezembro/2019": null
+        },
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        },
+        {
+          "abril/2020": null
+        },
+        {
+          "maio/2020": null
+        },
+        {
+          "junho/2020": null
+        },
+        {
+          "julho/2020": null
+        },
+        {
+          "agosto/2020": null
+        },
+        {
+          "setembro/2020": null
+        },
+        {
+          "outubro/2020": null
+        },
+        {
+          "novembro/2020": null
+        },
+        {
+          "dezembro/2020": null
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": null
+        },
+        {
+          "fevereiro/2019": null
+        },
+        {
+          "mar\u00e7o/2019": null
+        },
+        {
+          "abril/2019": null
+        },
+        {
+          "maio/2019": null
+        },
+        {
+          "junho/2019": null
+        },
+        {
+          "julho/2019": null
+        },
+        {
+          "agosto/2019": null
+        },
+        {
+          "setembro/2019": null
+        },
+        {
+          "outubro/2019": null
+        },
+        {
+          "novembro/2019": null
+        },
+        {
+          "dezembro/2019": null
+        },
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        },
+        {
+          "abril/2020": null
+        },
+        {
+          "maio/2020": null
+        },
+        {
+          "junho/2020": null
+        },
+        {
+          "julho/2020": null
+        },
+        {
+          "agosto/2020": null
+        },
+        {
+          "setembro/2020": null
+        },
+        {
+          "outubro/2020": null
+        },
+        {
+          "novembro/2020": null
+        },
+        {
+          "dezembro/2020": null
+        },
+        {
+          "janeiro/2021": null
+        },
+        {
+          "fevereiro/2021": null
+        },
+        {
+          "mar\u00e7o/2021": null
+        },
+        {
+          "abril/2021": null
+        },
+        {
+          "maio/2021": null
+        },
+        {
+          "junho/2021": null
+        },
+        {
+          "julho/2021": null
+        },
+        {
+          "agosto/2021": null
+        },
+        {
+          "setembro/2021": null
+        },
+        {
+          "outubro/2021": null
+        },
+        {
+          "novembro/2021": null
+        },
+        {
+          "dezembro/2021": null
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        },
+        {
+          "abril/2020": null
+        },
+        {
+          "maio/2020": null
+        },
+        {
+          "junho/2020": null
+        },
+        {
+          "julho/2020": null
+        },
+        {
+          "agosto/2020": null
+        },
+        {
+          "setembro/2020": null
+        },
+        {
+          "outubro/2020": null
+        },
+        {
+          "novembro/2020": null
+        },
+        {
+          "dezembro/2020": null
+        },
+        {
+          "janeiro/2021": null
+        },
+        {
+          "fevereiro/2021": null
+        },
+        {
+          "mar\u00e7o/2021": null
+        },
+        {
+          "abril/2021": null
+        },
+        {
+          "maio/2021": null
+        },
+        {
+          "junho/2021": null
+        },
+        {
+          "julho/2021": null
+        },
+        {
+          "agosto/2021": null
+        },
+        {
+          "setembro/2021": null
+        },
+        {
+          "outubro/2021": null
+        },
+        {
+          "novembro/2021": null
+        },
+        {
+          "dezembro/2021": null
+        },
+        {
+          "janeiro/2022": null
+        },
+        {
+          "fevereiro/2022": null
+        },
+        {
+          "mar\u00e7o/2022": null
+        },
+        {
+          "abril/2022": null
+        },
+        {
+          "maio/2022": null
+        },
+        {
+          "junho/2022": null
+        },
+        {
+          "julho/2022": null
+        },
+        {
+          "agosto/2022": null
+        },
+        {
+          "setembro/2022": null
+        },
+        {
+          "outubro/2022": null
+        },
+        {
+          "novembro/2022": null
+        },
+        {
+          "dezembro/2022": null
+        }
+      ]
+    }
+  }
+]
