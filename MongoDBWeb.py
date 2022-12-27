@@ -1,8 +1,6 @@
 import pandas
 import util
 
-from bson.json_util import dumps
-
 from pymongo import MongoClient
 from settings import structure_columns, verbose
 

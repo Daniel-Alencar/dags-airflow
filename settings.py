@@ -5,7 +5,7 @@ vehicles_with_price_path = f"{absolute_path}json/vehicles_with_price.json"
 modelo_atual_path = f"{absolute_path}json/modelo_atual.json"
 
 verbose = True
-headless = True
+headless = False
 
 # NÃO PODEM MUDAR
 number_of_computers = 5
