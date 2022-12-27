@@ -5,23 +5,24 @@ from airflow.operators.python import PythonOperator
 import util
 from MongoDBWeb import MongoDBWeb
 from web_scrapping import Web_Scrapping
-from settings import number_of_computers, computer_id, mini_batch
+from settings import number_of_computers, computer_id, mini_batch, verbose
 from settings import vehicles_to_search_path, vehicles_with_price_path
 
 def get_vehicles_to_search():
   vehicles_to_search = util.read_json(vehicles_to_search_path)
-  # print(vehicles_to_search)
+  if verbose:
+    print(vehicles_to_search)
 
   return vehicles_to_search
 
 def get_indices_de_busca(task_instance):
   vehicles_to_search = task_instance.xcom_pull(task_ids = 'get_vehicles_to_search')
   vehicles_to_search_length = len(vehicles_to_search)
-  # print(vehicles_to_search_length)
 
   bd = MongoDBWeb(vehicles_to_search_length, number_of_computers)
   indices_de_busca = bd.get_indexes(computer_id)
-  # print(indices_de_busca)
+  if verbose:
+    print(indices_de_busca)
 
   return indices_de_busca
 
