@@ -1,4 +1,4 @@
-absolute_path = "/home/engenheiro/airflow/dags/"
+absolute_path = ""
 
 vehicles_to_search_path = f"{absolute_path}json/vehicles_to_search.json"
 vehicles_with_price_path = f"{absolute_path}json/vehicles_with_price.json"
@@ -14,7 +14,7 @@ number_of_years = 3
 # PODEM MUDAR
 
 # Começa em 0
-computer_id = 1
+computer_id = 0
 mini_batch = 8
 
 meses = [
