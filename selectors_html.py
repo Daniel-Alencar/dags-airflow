@@ -38,9 +38,6 @@ search_button_selector = '#buttonPesquisarcarro'
 # Seletor do 'Limpar Pesquisa'
 clear_search_selector = '#buttonLimparPesquisarcarro > a'
 
-# Seletor do preço
-price_vehicle = '#resultadoConsultacarroFiltros > table > tbody > tr.last > td:nth-child(2) > p'
-
 # Seletor dos anos-modelo
 year_model_selector ='#selectAnocarro_chosen > a'
 
@@ -52,10 +49,12 @@ ul_year_model_selector = '#selectAnocarro_chosen > div > ul'
 
 # Seletor do item do ano-modelo desejado
 item_year_model_selector = '#selectAnocarro_chosen > div > ul > li:nth-child(1)'
-# li.active-result:nth-child(1)
 
 # Seletor do preço
-price_vehicle = '#resultadoConsultacarroFiltros > table > tbody > tr.last > td:nth-child(2) > p'
+price_vehicle_selector = '#resultadoConsultacarroFiltros > table > tbody > tr.last > td:nth-child(2) > p'
 
 # Seletor da <ul> das marcas
 ul_brand_model_element_selector = "#selectMarcacarro_chosen > div:nth-child(2) > ul:nth-child(2)"
+
+# Seletor da <ul> de modelos
+ul_model_element_selector = "#selectAnoModelocarro_chosen > div:nth-child(2) > ul:nth-child(2)"

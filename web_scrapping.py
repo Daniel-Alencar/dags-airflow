@@ -118,7 +118,11 @@ class Web_Scrapping:
     if ano_modelo_KEY == self.DEFAULT_VALUE:
       do_the_search = True
   
+    the_model_exists = True
     for ano_modelo_busca in self.anos_modelo:
+      if the_model_exists == False:
+        break
+
       if do_the_search or (ano_modelo_busca >= ano_modelo_KEY):
 
         anos = [(ano_modelo_busca + i) for i in range(number_of_years)]
@@ -126,11 +130,13 @@ class Web_Scrapping:
           vehicle_information["anos_modelo"][str(ano_modelo_busca)] = []
 
         for ano_busca in anos:
+          if the_model_exists == False:
+            break
 
           if do_the_search or (ano_busca >= mes_ano_KEY[1]):
 
             for mes_busca in self.meses:
-
+              
               if do_the_search or (mes_busca == mes_ano_KEY[0]):
 
                 if do_the_search:
@@ -157,7 +163,7 @@ class Web_Scrapping:
                   self.driver.find_element(By.CSS_SELECTOR, selectors_html.input_brand_selector).send_keys(marca)
                   time.sleep(1)
 
-                  # Seleciona a primeira marca disponivel (marca desejada)
+                  # Seleciona a marca desejada
                   self.driver.find_element(By.CSS_SELECTOR, selectors_html.item_brand_selector).click()
                   time.sleep(1)
 
@@ -168,76 +174,91 @@ class Web_Scrapping:
                   # Filtro do modelo desejado
                   self.driver.find_element(By.CSS_SELECTOR, selectors_html.input_model_selector).send_keys(modelo)
                   time.sleep(1)
-
-                  # Seleciona modelo desejado
-                  self.driver.find_element(By.CSS_SELECTOR, selectors_html.item_model_selector).click()
-                  time.sleep(1)
-
-                  #====#
-
-                  if verbose:
-                    print(f"Ano_modelo: {ano_modelo_busca}")
-                    print(f"Data de busca: {mes_busca}/{ano_busca}")
-
-                  if ano_modelo_busca == self.anos_modelo[0]:
-                    # Selecionar seletor dos anos-modelo
-                    self.driver.find_element(By.CSS_SELECTOR, selectors_html.year_model_selector).click()
-                    time.sleep(1)
-
-                  # Selecionar o input dos anos-modelo
-                  input = self.driver.find_element(By.CSS_SELECTOR, selectors_html.input_year_model_selector)
-                  time.sleep(1)
-
-                  for i in range(0, 4):
-                    input.send_keys(Keys.BACK_SPACE)
-
-                  input.send_keys(str(ano_modelo_busca))
-                  time.sleep(1)
-
-                  # Pega todos os filhos da <ul> de anos-modelo
-                  ul_year_model_element = self.driver.find_element(
+                  
+                  # Pega todos os filhos da <ul> de modelo
+                  ul_model_element = self.driver.find_element(
                     By.CSS_SELECTOR, 
-                    selectors_html.ul_year_model_selector
+                    selectors_html.ul_model_element_selector
                   )
-                  ul_year_model_element_children = ul_year_model_element.find_elements(By.XPATH, "./*")
+                  ul_model_element_children = ul_model_element.find_elements(By.XPATH, "./*")
                   time.sleep(1)
 
-                  price = None
-                  if(ul_year_model_element_children[0].get_attribute("class") != 'no-results'):
+                  if(ul_model_element_children[0].get_attribute("class") == 'no-results'):
+                    the_model_exists = False
+                    vehicle_information["anos_modelo"] = {}
+
+                    break
+                  else:
+
+                    # Seleciona modelo desejado
+                    self.driver.find_element(By.CSS_SELECTOR, selectors_html.item_model_selector).click()
+                    time.sleep(1)
+
+                    #====#
+
                     if verbose:
-                      print(f"Quantidade de anos-modelo: {len(ul_year_model_element_children)}")
+                      print(f"Ano_modelo: {ano_modelo_busca}")
+                      print(f"Data de busca: {mes_busca}/{ano_busca}")
 
-                    # Selecionar o ano-modelo desejado
-                    self.driver.find_element(By.CSS_SELECTOR, selectors_html.item_year_model_selector).click()
+                    if ano_modelo_busca == self.anos_modelo[0]:
+                      # Selecionar seletor dos anos-modelo
+                      self.driver.find_element(By.CSS_SELECTOR, selectors_html.year_model_selector).click()
+                      time.sleep(1)
+
+                    # Selecionar o input dos anos-modelo
+                    input = self.driver.find_element(By.CSS_SELECTOR, selectors_html.input_year_model_selector)
                     time.sleep(1)
 
-                    # Selecionar "Pesquisar"
-                    self.driver.find_element(By.CSS_SELECTOR, selectors_html.search_button_selector).click()
+                    for i in range(0, 4):
+                      input.send_keys(Keys.BACK_SPACE)
+
+                    input.send_keys(str(ano_modelo_busca))
                     time.sleep(1)
 
-                    # Pegar o preço do veiculo
-                    price = self.driver.find_element(By.CSS_SELECTOR, selectors_html.price_vehicle).text
-
-                  value = {
-                    f"{mes_busca}/{ano_busca}": price
-                  }
-                  vehicle_information["anos_modelo"][str(ano_modelo_busca)].append(value)
-                  if verbose:
-                    print(f"Preço: {price}\n")
-
-                  # Limpar pesquisa
-                  try:
-                    element = self.driver.find_element(By.CSS_SELECTOR, selectors_html.clear_search_selector)
-                    element.click()
-
+                    # Pega todos os filhos da <ul> de anos-modelo
+                    ul_year_model_element = self.driver.find_element(
+                      By.CSS_SELECTOR, 
+                      selectors_html.ul_year_model_selector
+                    )
+                    ul_year_model_element_children = ul_year_model_element.find_elements(By.XPATH, "./*")
                     time.sleep(1)
-                  except ElementNotInteractableException:
-                    print('')
 
-                  util.update_json(modelo_atual_path, vehicle_information)
+                    price = None
+                    if(ul_year_model_element_children[0].get_attribute("class") != 'no-results'):
+                      if verbose:
+                        print(f"Quantidade de anos-modelo: {len(ul_year_model_element_children)}")
 
-                do_the_search = True
+                      # Selecionar o ano-modelo desejado
+                      self.driver.find_element(By.CSS_SELECTOR, selectors_html.item_year_model_selector).click()
+                      time.sleep(1)
 
+                      # Selecionar "Pesquisar"
+                      self.driver.find_element(By.CSS_SELECTOR, selectors_html.search_button_selector).click()
+                      time.sleep(1)
+
+                      # Pegar o preço do veiculo
+                      price = self.driver.find_element(By.CSS_SELECTOR, selectors_html.price_vehicle_selector).text
+
+                    value = {
+                      f"{mes_busca}/{ano_busca}": price
+                    }
+                    vehicle_information["anos_modelo"][str(ano_modelo_busca)].append(value)
+                    if verbose:
+                      print(f"Preço: {price}\n")
+
+                    # Limpar pesquisa
+                    try:
+                      element = self.driver.find_element(By.CSS_SELECTOR, selectors_html.clear_search_selector)
+                      element.click()
+
+                      time.sleep(1)
+                    except ElementNotInteractableException:
+                      print('')
+
+                    util.update_json(modelo_atual_path, vehicle_information)
+
+                  do_the_search = True
+  
     return vehicle_information
 
 
