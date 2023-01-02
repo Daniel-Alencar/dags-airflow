@@ -8,6 +8,34 @@ from web_scrapping import Web_Scrapping
 from settings import number_of_computers, computer_id, mini_batch, verbose
 from settings import vehicles_to_search_path, vehicles_with_price_path
 
+from airflow.models.taskinstance import clear_task_instances
+from airflow.utils.db import provide_session
+
+@provide_session
+def retry_upstream_tasks(context, session = None, adr = False):
+  task_ids_to_retry = []
+  j, a_task = 0, context['task']
+
+  while j < context['params']['retry_upstream_depth']:
+    num_upstream_tasks = len(a_task.upstream_task_ids)
+    if num_upstream_tasks != 1:
+        raise ValueError(f'The # of upstream tasks of "{a_task}" must be 1, but "{num_upstream_tasks}"')
+    upstream_task_id = list(a_task.upstream_task_ids)[0]
+    task_ids_to_retry.append(upstream_task_id)
+    upstream_task = [t for t in context['dag'].tasks if t.task_id == upstream_task_id][0]
+    a_task = upstream_task
+    j += 1
+
+  all_task_ids_to_instances = {t_ins.task_id: t_ins for t_ins in context['dag_run'].get_task_instances()}
+  task_instances_to_retry = [all_task_ids_to_instances[tid] for tid in task_ids_to_retry[::-1]]
+
+  clear_task_instances(
+    tis = task_instances_to_retry, 
+    session = session, 
+    activate_dag_runs = adr, 
+    dag = context['dag']
+  )
+
 def get_vehicles_to_search():
   vehicles_to_search = util.read_json(vehicles_to_search_path)
   if verbose:
@@ -53,7 +81,7 @@ def clean_vehicles_with_price():
 dag = DAG(
   dag_id = "Execution_web_scrapping",
   start_date = dt.datetime(year=2022, month=11, day=1),
-  end_date = dt.datetime(year=2022, month=12, day=31),
+  end_date = dt.datetime(year=2023, month=12, day=31),
   schedule_interval = '0 9 * * *',
   catchup = False
 )
@@ -73,7 +101,11 @@ task_2 = PythonOperator(
 task_3 = PythonOperator(
   task_id = 'run_web_scrapping',
   python_callable = run_web_scrapping,
-  dag = dag
+  dag = dag,
+  on_retry_callback = retry_upstream_tasks,
+  retries = 3,
+  params = {'retry_upstream_depth': 2},
+  retry_delay = dt.timedelta(seconds = 60)
 )
 
 task_4 = PythonOperator(
