@@ -75,7 +75,7 @@ def save_BD():
   
   bd.persistent(vehicles_with_price)
 
-def clean_vehicles_with_price():
+def clear_vehicles_with_price():
   util.clear_json(vehicles_with_price_path)
   
 
@@ -117,8 +117,8 @@ task_4 = PythonOperator(
 )
 
 task_5 = PythonOperator(
-  task_id = 'clean_vehicles_with_price',
-  python_callable = clean_vehicles_with_price,
+  task_id = 'clear_vehicles_with_price',
+  python_callable = clear_vehicles_with_price,
   dag = dag
 )
 

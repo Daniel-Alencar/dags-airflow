@@ -382,6 +382,8 @@ class Web_Scrapping:
 
       if self.update_indexes() == False:
         break
+    
+    Variable.set("execution_times", f"{0}")
 
     # Fechamento de execução do web_scrapping
     self.driver.quit()
