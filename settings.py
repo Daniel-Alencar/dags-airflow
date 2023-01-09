@@ -8,7 +8,7 @@ headless = False
 
 # Começa em 0
 computer_id = 1
-mini_batch = 8
+mini_batch = 4
 retries = 30
 retry_delay = dt.timedelta(seconds = 120)
 
