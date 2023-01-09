@@ -1,13 +1,13 @@
 import datetime as dt
 
 ### PODEM MUDAR
-absolute_path = "/home/engenheiro/airflow/dags/"
+absolute_path = ""
 
 verbose = True
 headless = False
 
 # Começa em 0
-computer_id = 1
+computer_id = 0
 mini_batch = 8
 retries = 30
 retry_delay = dt.timedelta(seconds = 120)
