@@ -1,7 +1,7 @@
 import datetime as dt
 
 ### PODEM MUDAR
-absolute_path = "/home/engenheiro/airflow/dags/"
+absolute_path = ""
 
 verbose = True
 headless = False
