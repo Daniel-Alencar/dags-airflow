@@ -1,15 +1,17 @@
 from airflow import DAG
-import datetime as dt
 from airflow.operators.python import PythonOperator
+from airflow.models.taskinstance import clear_task_instances
+from airflow.utils.db import provide_session
+
+import datetime as dt
 
 import util
 from MongoDBWeb import MongoDBWeb
 from web_scrapping import Web_Scrapping
+
 from settings import number_of_computers, computer_id, mini_batch, verbose
 from settings import vehicles_to_search_path, vehicles_with_price_path
-
-from airflow.models.taskinstance import clear_task_instances
-from airflow.utils.db import provide_session
+from settings import retries, retry_delay
 
 @provide_session
 def retry_upstream_tasks(context, session = None, adr = False):
@@ -103,9 +105,9 @@ task_3 = PythonOperator(
   python_callable = run_web_scrapping,
   dag = dag,
   on_retry_callback = retry_upstream_tasks,
-  retries = 3,
+  retries = retries,
   params = {'retry_upstream_depth': 2},
-  retry_delay = dt.timedelta(seconds = 60)
+  retry_delay = retry_delay
 )
 
 task_4 = PythonOperator(

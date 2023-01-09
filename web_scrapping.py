@@ -14,6 +14,8 @@ from selenium.common.exceptions import ElementNotInteractableException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from airflow.models import Variable
+
 class Web_Scrapping:
   # Constructor
   def __init__(
@@ -333,7 +335,8 @@ class Web_Scrapping:
   def execution(self, mini_batch):
     self.setup()
 
-    execution_times = 0
+    execution_times = int(Variable.get("execution_times", default_var=0))
+
     if verbose:
       print(self.indices_de_busca)
 
@@ -343,6 +346,13 @@ class Web_Scrapping:
       anosModelo_DICTIONARY = {}
 
     while (self.check_indexes() and execution_times < mini_batch):
+
+      if verbose:
+        print("="*100)
+        print(f"EXECUTION_TIMES = {execution_times}")
+        print(type(execution_times))
+        print("="*100)
+
       vehicle_information = self.search_vehicle_information(
         
         # marca
@@ -367,7 +377,9 @@ class Web_Scrapping:
       util.update_json(modelo_atual_path, {})
       anosModelo_DICTIONARY = {}
 
-      execution_times += 1
+      Variable.set("execution_times", f"{execution_times + 1}")
+      execution_times = int(Variable.get("execution_times"))
+
       if self.update_indexes() == False:
         break
 
