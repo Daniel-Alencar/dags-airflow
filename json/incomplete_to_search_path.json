@@ -1,0 +1,162 @@
+[
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "CROSSFOX 1.6 Mi Total Flex 8V 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelos_base": [
+      [
+        "AIRCROSS GLX 1.6 Flex 16V 5p Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelos_base": [
+      [
+        "AIRCROSS GL 1.6 Flex 16V 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Renault",
+    "modelos_base": [
+      [
+        "DUSTER Dynamique 2.0 Flex 16V Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "ONIX Lollapalooza 1.0 F.Power 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "PRISMA Sed. Maxx/ LT 1.4 8V ECONOF. 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "VOYAGE Trendline 1.0 T.Flex 8V 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "VOYAGE Comfortline 1.0 T.Flex 8V 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "SPACEFOX SPORTLINE/HIGHLINE 1.6 T.Flex"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "SPACEFOX TREND I MOTION 1.6 T. Flex 8V"
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "MONTANA Sport 1.8 MPFI FlexPower 8V"
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "MONTANA 1.4 8V Conquest ECONOFLEX 2p"
+      ]
+    ]
+  },
+  {
+    "marca": "Mercedes-Benz",
+    "modelos_base": [
+      [
+        "CLA-200 First Edition 1.6 TB 16V Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Kia",
+    "modelos_base": [
+      [
+        "Cerato 1.6 16V Flex Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "MONTANA ARENA 1.4 ECONOFLEX 8V 2p"
+      ]
+    ]
+  },
+  {
+    "marca": "Mercedes-Benz",
+    "modelos_base": [
+      [
+        "GLA 200 Vis. Black Ed. 1.6 TB 16V Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Toyota",
+    "modelos_base": [
+      [
+        "Corolla ALTIS 2.0 Flex 16V Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "JETTA GLX III 2.8 VR6"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "JETTA Comfortline 2.0 T.Flex 8V 4p Mec."
+      ]
+    ]
+  }
+]

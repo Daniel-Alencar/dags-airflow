@@ -9,9 +9,9 @@ import util
 from MongoDBWeb import MongoDBWeb
 from web_scrapping import Web_Scrapping
 
-from settings import number_of_computers, computer_id, mini_batch, verbose
-from settings import vehicles_to_search_path, vehicles_with_price_path
-from settings import retries, retry_delay
+from settings import number_of_computers, computer_id, verbose
+from settings import incomplete_to_search_path, vehicles_with_price_path
+from settings import retries, retry_delay, incomplete_path, modelo_atual_path
 
 @provide_session
 def retry_upstream_tasks(context, session = None, adr = False):
@@ -39,7 +39,7 @@ def retry_upstream_tasks(context, session = None, adr = False):
   )
 
 def get_vehicles_to_search():
-  vehicles_to_search = util.read_json(vehicles_to_search_path)
+  vehicles_to_search = util.read_json(incomplete_to_search_path)
   if verbose:
     print(vehicles_to_search)
 
@@ -60,6 +60,10 @@ def run_web_scrapping(task_instance):
   vehicles_to_search = task_instance.xcom_pull(task_ids = 'get_vehicles_to_search')
   indices_de_busca = task_instance.xcom_pull(task_ids = 'get_indices_de_busca')
 
+  # Pegar o elemento de incomplete.json e passar para modelo atual
+  incomplete = util.read_json(incomplete_path)
+  util.update_json(modelo_atual_path, incomplete[0])
+
   web = Web_Scrapping(
     indices_de_busca=indices_de_busca,
     vehicles_to_search=vehicles_to_search,
@@ -67,7 +71,11 @@ def run_web_scrapping(task_instance):
     number_of_computers=number_of_computers
   )
   web.get_vehicles_with_price()
-  web.execution(mini_batch)
+  web.execution(1)
+
+  # Remover primeiro elemento de incomplete.json
+  del incomplete[0]
+  util.update_json(incomplete_path, incomplete)
 
 def save_BD():
   bd = MongoDBWeb()
@@ -77,13 +85,13 @@ def save_BD():
 
 def clear_vehicles_with_price():
   util.clear_json(vehicles_with_price_path)
-  
+
 
 dag = DAG(
-  dag_id = "Execution_web_scrapping",
-  start_date = dt.datetime(year=2022, month=11, day=1),
+  dag_id = "Execution_corrigir_modelos",
+  start_date = dt.datetime(year=2023, month=1, day=27),
   end_date = dt.datetime(year=2023, month=12, day=31),
-  schedule_interval = '0 9 * * *',
+  schedule_interval = dt.datetime(minute = 20),
   catchup = False
 )
 

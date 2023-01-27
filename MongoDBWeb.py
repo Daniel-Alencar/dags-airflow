@@ -3,6 +3,8 @@ import util
 
 from pymongo import MongoClient
 from settings import structure_columns, verbose
+from settings import incomplete_path, meses, incomplete_to_search_path
+from settings import data_path
 
 class MongoDBWeb:
   def __init__(self, vehicles_to_search_length=[], number_of_computers=0):
@@ -74,8 +76,9 @@ class MongoDBWeb:
     value.pop('site')
 
     structure = pandas.DataFrame(columns = structure_columns)
-    
-    for vehicle in value['vehicles']:
+    model_incomplete = []
+    incomplete_to_search = []
+    for i, vehicle in enumerate(value['vehicles']):
       data = [vehicle['marca'], vehicle['modelo']]
       for year in vehicle['anos_modelo'].keys():
         data.append(year)
@@ -83,10 +86,33 @@ class MongoDBWeb:
           price = list(month.values())
           data.append(price[0])
 
-        new = pandas.DataFrame([data], columns = structure_columns)
-        structure = pandas.concat([structure, new])
+        if(len(data) < 39):
+          value_for_incomplete = {
+            "marca": data[0],
+            "modelo": data[1],
+            "anos_modelo": {
+              f"{data[2]}": [
+                { f"{meses[j % 12]}/{int(data[2]) + (j // 12)}": data[j + 3] } 
+                for j in range(len(data[3:]))
+              ]
+            }
+          }
+          
+          value_for_incomplete_to_search = {"marca": data[0], "modelos_base": [[data[1]]]}
+          if not value_for_incomplete_to_search in incomplete_to_search:
+            incomplete_to_search.append(value_for_incomplete_to_search)
 
-        structure.fillna(value = "NULL", axis = 1, inplace = True)
+          if not value_for_incomplete in model_incomplete:
+            model_incomplete.append(value_for_incomplete)
+            
+        else:
+          new = pandas.DataFrame([data], columns = structure_columns)
+          structure = pandas.concat([structure, new])
+
+          structure.fillna(value = "NULL", axis = 1, inplace = True)
+
         del data[2 : ]
-    
-    structure.to_csv("data.csv", index = False, header = True)
+        
+        util.update_json(incomplete_to_search_path, incomplete_to_search)
+        util.update_json(incomplete_path, model_incomplete)
+    structure.to_csv(data_path, index = False, header = True)

@@ -1,21 +1,25 @@
 import datetime as dt
 
 ### PODEM MUDAR
-absolute_path = "/home/engenheiro/airflow/dags/"
+absolute_path = "/home/engenheiro/airflow/dags/web_scrapping"
 
 verbose = True
 headless = False
 
 # Começa em 0
-computer_id = 1
-mini_batch = 4
+computer_id = 0
+mini_batch = 1
 retries = 30
-retry_delay = dt.timedelta(seconds = 120)
+retry_delay = dt.timedelta(seconds = 20)
 
 ### NÃO PODEM MUDAR
 vehicles_to_search_path = f"{absolute_path}json/vehicles_to_search.json"
 vehicles_with_price_path = f"{absolute_path}json/vehicles_with_price.json"
 modelo_atual_path = f"{absolute_path}json/modelo_atual.json"
+incomplete_path = f"{absolute_path}json/incomplete.json"
+incomplete_to_search_path = f"{absolute_path}json/incomplete_to_search_path.json"
+data_path = f"{absolute_path}csv/data.csv"
+data_without_null_path = f"{absolute_path}csv/data_without_null.csv"
 
 number_of_computers = 5
 number_of_years = 3

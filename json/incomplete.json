@@ -1,0 +1,448 @@
+[
+  {
+    "marca": "Volkswagen",
+    "modelo": "CROSSFOX 1.6 Mi Total Flex 8V 5p",
+    "anos_modelo": {
+      "2020": [
+        {
+          "janeiro/2020": null
+        },
+        {
+          "fevereiro/2020": null
+        },
+        {
+          "mar\u00e7o/2020": null
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
+    "anos_modelo": {
+      "2017": [
+        {
+          "janeiro/2017": null
+        },
+        {
+          "fevereiro/2017": null
+        },
+        {
+          "mar\u00e7o/2017": null
+        },
+        {
+          "abril/2017": null
+        },
+        {
+          "maio/2017": null
+        },
+        {
+          "junho/2017": null
+        },
+        {
+          "julho/2017": null
+        },
+        {
+          "agosto/2017": null
+        },
+        {
+          "setembro/2017": null
+        },
+        {
+          "outubro/2017": null
+        },
+        {
+          "novembro/2017": null
+        },
+        {
+          "dezembro/2017": null
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
+    "anos_modelo": {
+      "2018": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
+    "anos_modelo": {
+      "2019": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
+    "anos_modelo": {
+      "2020": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
+    "anos_modelo": {
+      "2017": [
+        {
+          "janeiro/2017": null
+        },
+        {
+          "fevereiro/2017": null
+        },
+        {
+          "mar\u00e7o/2017": null
+        },
+        {
+          "abril/2017": null
+        },
+        {
+          "maio/2017": null
+        },
+        {
+          "junho/2017": null
+        },
+        {
+          "julho/2017": null
+        },
+        {
+          "agosto/2017": null
+        },
+        {
+          "setembro/2017": null
+        },
+        {
+          "outubro/2017": null
+        },
+        {
+          "novembro/2017": null
+        },
+        {
+          "dezembro/2017": null
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
+    "anos_modelo": {
+      "2018": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
+    "anos_modelo": {
+      "2019": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
+    "anos_modelo": {
+      "2020": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
+    "anos_modelo": {
+      "2016": [
+        {
+          "janeiro/2016": null
+        },
+        {
+          "fevereiro/2016": null
+        },
+        {
+          "mar\u00e7o/2016": null
+        },
+        {
+          "abril/2016": null
+        },
+        {
+          "maio/2016": null
+        },
+        {
+          "junho/2016": null
+        },
+        {
+          "julho/2016": null
+        },
+        {
+          "agosto/2016": null
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
+    "anos_modelo": {
+      "2017": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
+    "anos_modelo": {
+      "2018": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
+    "anos_modelo": {
+      "2019": []
+    }
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
+    "anos_modelo": {
+      "2020": []
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": "R$ 61.265,00"
+        },
+        {
+          "fevereiro/2015": "R$ 61.715,00"
+        },
+        {
+          "mar\u00e7o/2015": "R$ 62.409,00"
+        },
+        {
+          "abril/2015": "R$ 63.149,00"
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2016": []
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2017": []
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2018": []
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2019": []
+    }
+  },
+  {
+    "marca": "Renault",
+    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2020": []
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "ONIX Lollapalooza 1.0 F.Power 5p Mec.",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "PRISMA Sed. Maxx/ LT 1.4 8V ECONOF. 4p",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "VOYAGE Trendline 1.0 T.Flex 8V 4p",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "VOYAGE Comfortline 1.0 T.Flex 8V 4p",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "SPACEFOX SPORTLINE/HIGHLINE 1.6 T.Flex",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "SPACEFOX TREND I MOTION 1.6 T. Flex 8V",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "MONTANA Sport 1.8 MPFI FlexPower 8V",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "MONTANA 1.4 8V Conquest ECONOFLEX 2p",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Mercedes-Benz",
+    "modelo": "CLA-200 First Edition 1.6 TB 16V Aut.",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Cerato 1.6 16V Flex Aut.",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "MONTANA ARENA 1.4 ECONOFLEX 8V 2p",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Mercedes-Benz",
+    "modelo": "GLA 200 Vis. Black Ed. 1.6 TB 16V Aut.",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla ALTIS 2.0 Flex 16V Aut.",
+    "anos_modelo": {
+      "2019": [
+        {
+          "janeiro/2019": "R$ 106.044,00"
+        },
+        {
+          "fevereiro/2019": "R$ 107.157,00"
+        },
+        {
+          "mar\u00e7o/2019": "R$ 107.539,00"
+        },
+        {
+          "abril/2019": "R$ 106.177,00"
+        },
+        {
+          "maio/2019": "R$ 106.487,00"
+        },
+        {
+          "junho/2019": "R$ 104.899,00"
+        },
+        {
+          "julho/2019": "R$ 106.439,00"
+        },
+        {
+          "agosto/2019": "R$ 105.867,00"
+        },
+        {
+          "setembro/2019": "R$ 105.117,00"
+        },
+        {
+          "outubro/2019": "R$ 105.268,00"
+        },
+        {
+          "novembro/2019": "R$ 104.778,00"
+        },
+        {
+          "dezembro/2019": "R$ 103.844,00"
+        },
+        {
+          "janeiro/2020": "R$ 102.228,00"
+        },
+        {
+          "fevereiro/2020": "R$ 100.650,00"
+        },
+        {
+          "mar\u00e7o/2020": "R$ 99.431,00"
+        },
+        {
+          "abril/2020": "R$ 98.628,00"
+        },
+        {
+          "maio/2020": "R$ 97.031,00"
+        },
+        {
+          "junho/2020": "R$ 95.918,00"
+        },
+        {
+          "julho/2020": "R$ 95.156,00"
+        },
+        {
+          "agosto/2020": "R$ 94.337,00"
+        },
+        {
+          "setembro/2020": "R$ 93.211,00"
+        },
+        {
+          "outubro/2020": "R$ 94.027,00"
+        },
+        {
+          "novembro/2020": "R$ 94.957,00"
+        },
+        {
+          "dezembro/2020": "R$ 97.122,00"
+        },
+        {
+          "janeiro/2021": "R$ 98.296,00"
+        },
+        {
+          "fevereiro/2021": "R$ 98.749,00"
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "JETTA GLX III 2.8 VR6",
+    "anos_modelo": {
+      "2015": []
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "JETTA Comfortline 2.0 T.Flex 8V 4p Mec.",
+    "anos_modelo": {
+      "2015": []
+    }
+  }
+]

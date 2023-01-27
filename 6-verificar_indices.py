@@ -12,10 +12,12 @@ for id in range(number_of_computers):
 
   if verbose:
     print(indices_de_busca)
-    print(
-      vehicles_to_search
-        [indices_de_busca["marca"]]["modelos_base"]
-        [indices_de_busca["modelo_base"]]
-        [indices_de_busca["modelo_especifico"]]
-    )
+    if indices_de_busca["modelo_especifico"] != None:
+      print(
+        vehicles_to_search
+          [indices_de_busca["marca"]]["modelos_base"]
+          [indices_de_busca["modelo_base"]]
+          [indices_de_busca["modelo_especifico"]]
+      )
     print("")
+
