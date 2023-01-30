@@ -76,7 +76,7 @@ class MongoDBWeb:
     value.pop('site')
 
     structure = pandas.DataFrame(columns = structure_columns)
-    model_incomplete = []
+    models_incomplete = []
     incomplete_to_search = []
     for i, vehicle in enumerate(value['vehicles']):
       data = [vehicle['marca'], vehicle['modelo']]
@@ -87,6 +87,11 @@ class MongoDBWeb:
           data.append(price[0])
 
         if(len(data) < 39):
+          value_for_incomplete_to_find = {
+            "marca": data[0],
+            "modelo": data[1]
+          }
+
           value_for_incomplete = {
             "marca": data[0],
             "modelo": data[1],
@@ -97,14 +102,24 @@ class MongoDBWeb:
               ]
             }
           }
-          
+
           value_for_incomplete_to_search = {"marca": data[0], "modelos_base": [[data[1]]]}
+
+          add_value = True
+          for model_incomplete in models_incomplete:
+            value_to_find = {
+              "marca": model_incomplete["marca"],
+              "modelo": model_incomplete["modelo"]
+            }
+            if value_to_find == value_for_incomplete_to_find:
+              add_value = False
+          
+          if add_value:
+            models_incomplete.append(value_for_incomplete)
+
           if not value_for_incomplete_to_search in incomplete_to_search:
             incomplete_to_search.append(value_for_incomplete_to_search)
-
-          if not value_for_incomplete in model_incomplete:
-            model_incomplete.append(value_for_incomplete)
-            
+          
         else:
           new = pandas.DataFrame([data], columns = structure_columns)
           structure = pandas.concat([structure, new])
@@ -114,5 +129,5 @@ class MongoDBWeb:
         del data[2 : ]
         
         util.update_json(incomplete_to_search_path, incomplete_to_search)
-        util.update_json(incomplete_path, model_incomplete)
+        util.update_json(incomplete_path, models_incomplete)
     structure.to_csv(data_path, index = False, header = True)
