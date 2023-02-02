@@ -60,9 +60,12 @@ def run_web_scrapping(task_instance):
   vehicles_to_search = task_instance.xcom_pull(task_ids = 'get_vehicles_to_search')
   indices_de_busca = task_instance.xcom_pull(task_ids = 'get_indices_de_busca')
 
+  bd = MongoDBWeb()
+  indexes = bd.get_indexes(computer_id)
+
   # Pegar o elemento de incomplete.json e passar para modelo atual
   incomplete = util.read_json(incomplete_path)
-  util.update_json(modelo_atual_path, incomplete[0])
+  util.update_json(modelo_atual_path, incomplete[indexes["marca"]])
 
   web = Web_Scrapping(
     indices_de_busca=indices_de_busca,
@@ -71,11 +74,7 @@ def run_web_scrapping(task_instance):
     number_of_computers=number_of_computers
   )
   web.get_vehicles_with_price()
-  web.execution(1)
-
-  # Remover primeiro elemento de incomplete.json
-  del incomplete[0]
-  util.update_json(incomplete_path, incomplete)
+  web.execution(mini_batch=1)
 
 def save_BD():
   bd = MongoDBWeb()
@@ -91,7 +90,7 @@ dag = DAG(
   dag_id = "Execution_corrigir_modelos",
   start_date = dt.datetime(year=2023, month=1, day=27),
   end_date = dt.datetime(year=2023, month=12, day=31),
-  schedule_interval = dt.datetime(minute = 20),
+  schedule_interval = dt.timedelta(minutes=20),
   catchup = False
 )
 
