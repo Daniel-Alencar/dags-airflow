@@ -61,27 +61,6 @@
     }
   },
   {
-    "marca": "Volkswagen",
-    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
-    "anos_modelo": {
-      "2018": []
-    }
-  },
-  {
-    "marca": "Volkswagen",
-    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
-    "anos_modelo": {
-      "2019": []
-    }
-  },
-  {
-    "marca": "Volkswagen",
-    "modelo": "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p",
-    "anos_modelo": {
-      "2020": []
-    }
-  },
-  {
     "marca": "Citro\u00ebn",
     "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
     "anos_modelo": {
@@ -127,27 +106,6 @@
   },
   {
     "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
-    "anos_modelo": {
-      "2018": []
-    }
-  },
-  {
-    "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
-    "anos_modelo": {
-      "2019": []
-    }
-  },
-  {
-    "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
-    "anos_modelo": {
-      "2020": []
-    }
-  },
-  {
-    "marca": "Citro\u00ebn",
     "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
     "anos_modelo": {
       "2016": [
@@ -179,34 +137,6 @@
     }
   },
   {
-    "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
-    "anos_modelo": {
-      "2017": []
-    }
-  },
-  {
-    "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
-    "anos_modelo": {
-      "2018": []
-    }
-  },
-  {
-    "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
-    "anos_modelo": {
-      "2019": []
-    }
-  },
-  {
-    "marca": "Citro\u00ebn",
-    "modelo": "AIRCROSS GL 1.6 Flex 16V 5p Mec.",
-    "anos_modelo": {
-      "2020": []
-    }
-  },
-  {
     "marca": "Renault",
     "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
     "anos_modelo": {
@@ -224,41 +154,6 @@
           "abril/2015": "R$ 63.149,00"
         }
       ]
-    }
-  },
-  {
-    "marca": "Renault",
-    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
-    "anos_modelo": {
-      "2016": []
-    }
-  },
-  {
-    "marca": "Renault",
-    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
-    "anos_modelo": {
-      "2017": []
-    }
-  },
-  {
-    "marca": "Renault",
-    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
-    "anos_modelo": {
-      "2018": []
-    }
-  },
-  {
-    "marca": "Renault",
-    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
-    "anos_modelo": {
-      "2019": []
-    }
-  },
-  {
-    "marca": "Renault",
-    "modelo": "DUSTER Dynamique 2.0 Flex 16V Aut.",
-    "anos_modelo": {
-      "2020": []
     }
   },
   {

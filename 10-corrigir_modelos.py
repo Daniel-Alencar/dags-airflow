@@ -62,6 +62,7 @@ def run_web_scrapping(task_instance):
 
   bd = MongoDBWeb()
   indexes = bd.get_indexes(computer_id)
+  util.print_formatted_json(indexes)
 
   # Pegar o elemento de incomplete.json e passar para modelo atual
   incomplete = util.read_json(incomplete_path)

@@ -96,7 +96,11 @@ class Web_Scrapping:
 
     # Extrair última data (mes/ano) pesquisada
     if ano_modelo_KEY != self.DEFAULT_VALUE:
-      mes_ano_DICTIONARY = anosModelo_DICTIONARY[str(ano_modelo_KEY)][-1]
+      try:
+        mes_ano_DICTIONARY = anosModelo_DICTIONARY[str(ano_modelo_KEY)][-1]
+      except:
+        mes_ano_DICTIONARY = { f"{meses[0]}/{ano_modelo_KEY}": None }
+
       for mes_ano in mes_ano_DICTIONARY:
         values = str(mes_ano).split('/')
         mes_ano_KEY = (values[0], int(values[1]))
