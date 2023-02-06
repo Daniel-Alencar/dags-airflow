@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from settings import verbose, headless
 
 
-ano = 2016
+ano = 2015
 
 # Faz o Web-Scrapping para algum site
 def web_scrapping():
