@@ -1,0 +1,3332 @@
+[
+  {
+    "marca": "Volkswagen",
+    "modelo": "SPACEFOX SPORTLINE/HIGHLINE 1.6 T.Flex",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": 1
+        },
+        {
+          "fevereiro/2015": 1
+        },
+        {
+          "mar\u00e7o/2015": 1
+        },
+        {
+          "abril/2015": 1
+        },
+        {
+          "maio/2015": 1
+        },
+        {
+          "junho/2015": 1
+        },
+        {
+          "julho/2015": 1
+        },
+        {
+          "agosto/2015": 1
+        },
+        {
+          "setembro/2015": 1
+        },
+        {
+          "outubro/2015": 1
+        },
+        {
+          "novembro/2015": 1
+        },
+        {
+          "dezembro/2015": 1
+        },
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        },
+        {
+          "janeiro/2022": 1
+        },
+        {
+          "fevereiro/2022": 1
+        },
+        {
+          "mar\u00e7o/2022": 1
+        },
+        {
+          "abril/2022": 1
+        },
+        {
+          "maio/2022": 1
+        },
+        {
+          "junho/2022": 1
+        },
+        {
+          "julho/2022": 1
+        },
+        {
+          "agosto/2022": 1
+        },
+        {
+          "setembro/2022": 1
+        },
+        {
+          "outubro/2022": 1
+        },
+        {
+          "novembro/2022": 1
+        },
+        {
+          "dezembro/2022": 1
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "SPACEFOX TREND I MOTION 1.6 T. Flex 8V",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": 1
+        },
+        {
+          "fevereiro/2015": 1
+        },
+        {
+          "mar\u00e7o/2015": 1
+        },
+        {
+          "abril/2015": 1
+        },
+        {
+          "maio/2015": 1
+        },
+        {
+          "junho/2015": 1
+        },
+        {
+          "julho/2015": 1
+        },
+        {
+          "agosto/2015": 1
+        },
+        {
+          "setembro/2015": 1
+        },
+        {
+          "outubro/2015": 1
+        },
+        {
+          "novembro/2015": 1
+        },
+        {
+          "dezembro/2015": 1
+        },
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        },
+        {
+          "janeiro/2022": 1
+        },
+        {
+          "fevereiro/2022": 1
+        },
+        {
+          "mar\u00e7o/2022": 1
+        },
+        {
+          "abril/2022": 1
+        },
+        {
+          "maio/2022": 1
+        },
+        {
+          "junho/2022": 1
+        },
+        {
+          "julho/2022": 1
+        },
+        {
+          "agosto/2022": 1
+        },
+        {
+          "setembro/2022": 1
+        },
+        {
+          "outubro/2022": 1
+        },
+        {
+          "novembro/2022": 1
+        },
+        {
+          "dezembro/2022": 1
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "MONTANA Sport 1.8 MPFI FlexPower 8V",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": 1
+        },
+        {
+          "fevereiro/2015": 1
+        },
+        {
+          "mar\u00e7o/2015": 1
+        },
+        {
+          "abril/2015": 1
+        },
+        {
+          "maio/2015": 1
+        },
+        {
+          "junho/2015": 1
+        },
+        {
+          "julho/2015": 1
+        },
+        {
+          "agosto/2015": 1
+        },
+        {
+          "setembro/2015": 1
+        },
+        {
+          "outubro/2015": 1
+        },
+        {
+          "novembro/2015": 1
+        },
+        {
+          "dezembro/2015": 1
+        },
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        },
+        {
+          "janeiro/2022": 1
+        },
+        {
+          "fevereiro/2022": 1
+        },
+        {
+          "mar\u00e7o/2022": 1
+        },
+        {
+          "abril/2022": 1
+        },
+        {
+          "maio/2022": 1
+        },
+        {
+          "junho/2022": 1
+        },
+        {
+          "julho/2022": 1
+        },
+        {
+          "agosto/2022": 1
+        },
+        {
+          "setembro/2022": 1
+        },
+        {
+          "outubro/2022": 1
+        },
+        {
+          "novembro/2022": 1
+        },
+        {
+          "dezembro/2022": 1
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "MONTANA 1.4 8V Conquest ECONOFLEX 2p",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": 1
+        },
+        {
+          "fevereiro/2015": 1
+        },
+        {
+          "mar\u00e7o/2015": 1
+        },
+        {
+          "abril/2015": 1
+        },
+        {
+          "maio/2015": 1
+        },
+        {
+          "junho/2015": 1
+        },
+        {
+          "julho/2015": 1
+        },
+        {
+          "agosto/2015": 1
+        },
+        {
+          "setembro/2015": 1
+        },
+        {
+          "outubro/2015": 1
+        },
+        {
+          "novembro/2015": 1
+        },
+        {
+          "dezembro/2015": 1
+        },
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        },
+        {
+          "janeiro/2022": 1
+        },
+        {
+          "fevereiro/2022": 1
+        },
+        {
+          "mar\u00e7o/2022": 1
+        },
+        {
+          "abril/2022": 1
+        },
+        {
+          "maio/2022": 1
+        },
+        {
+          "junho/2022": 1
+        },
+        {
+          "julho/2022": 1
+        },
+        {
+          "agosto/2022": 1
+        },
+        {
+          "setembro/2022": 1
+        },
+        {
+          "outubro/2022": 1
+        },
+        {
+          "novembro/2022": 1
+        },
+        {
+          "dezembro/2022": 1
+        }
+      ]
+    }
+  },
+  {
+    "marca": "Mercedes-Benz",
+    "modelo": "CLA-200 First Edition 1.6 TB 16V Aut.",
+    "anos_modelo": {
+      "2015": [
+        {
+          "janeiro/2015": 1
+        },
+        {
+          "fevereiro/2015": 1
+        },
+        {
+          "mar\u00e7o/2015": 1
+        },
+        {
+          "abril/2015": 1
+        },
+        {
+          "maio/2015": 1
+        },
+        {
+          "junho/2015": 1
+        },
+        {
+          "julho/2015": 1
+        },
+        {
+          "agosto/2015": 1
+        },
+        {
+          "setembro/2015": 1
+        },
+        {
+          "outubro/2015": 1
+        },
+        {
+          "novembro/2015": 1
+        },
+        {
+          "dezembro/2015": 1
+        },
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        }
+      ],
+      "2016": [
+        {
+          "janeiro/2016": 1
+        },
+        {
+          "fevereiro/2016": 1
+        },
+        {
+          "mar\u00e7o/2016": 1
+        },
+        {
+          "abril/2016": 1
+        },
+        {
+          "maio/2016": 1
+        },
+        {
+          "junho/2016": 1
+        },
+        {
+          "julho/2016": 1
+        },
+        {
+          "agosto/2016": 1
+        },
+        {
+          "setembro/2016": 1
+        },
+        {
+          "outubro/2016": 1
+        },
+        {
+          "novembro/2016": 1
+        },
+        {
+          "dezembro/2016": 1
+        },
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        }
+      ],
+      "2017": [
+        {
+          "janeiro/2017": 1
+        },
+        {
+          "fevereiro/2017": 1
+        },
+        {
+          "mar\u00e7o/2017": 1
+        },
+        {
+          "abril/2017": 1
+        },
+        {
+          "maio/2017": 1
+        },
+        {
+          "junho/2017": 1
+        },
+        {
+          "julho/2017": 1
+        },
+        {
+          "agosto/2017": 1
+        },
+        {
+          "setembro/2017": 1
+        },
+        {
+          "outubro/2017": 1
+        },
+        {
+          "novembro/2017": 1
+        },
+        {
+          "dezembro/2017": 1
+        },
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        }
+      ],
+      "2018": [
+        {
+          "janeiro/2018": 1
+        },
+        {
+          "fevereiro/2018": 1
+        },
+        {
+          "mar\u00e7o/2018": 1
+        },
+        {
+          "abril/2018": 1
+        },
+        {
+          "maio/2018": 1
+        },
+        {
+          "junho/2018": 1
+        },
+        {
+          "julho/2018": 1
+        },
+        {
+          "agosto/2018": 1
+        },
+        {
+          "setembro/2018": 1
+        },
+        {
+          "outubro/2018": 1
+        },
+        {
+          "novembro/2018": 1
+        },
+        {
+          "dezembro/2018": 1
+        },
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        }
+      ],
+      "2019": [
+        {
+          "janeiro/2019": 1
+        },
+        {
+          "fevereiro/2019": 1
+        },
+        {
+          "mar\u00e7o/2019": 1
+        },
+        {
+          "abril/2019": 1
+        },
+        {
+          "maio/2019": 1
+        },
+        {
+          "junho/2019": 1
+        },
+        {
+          "julho/2019": 1
+        },
+        {
+          "agosto/2019": 1
+        },
+        {
+          "setembro/2019": 1
+        },
+        {
+          "outubro/2019": 1
+        },
+        {
+          "novembro/2019": 1
+        },
+        {
+          "dezembro/2019": 1
+        },
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        }
+      ],
+      "2020": [
+        {
+          "janeiro/2020": 1
+        },
+        {
+          "fevereiro/2020": 1
+        },
+        {
+          "mar\u00e7o/2020": 1
+        },
+        {
+          "abril/2020": 1
+        },
+        {
+          "maio/2020": 1
+        },
+        {
+          "junho/2020": 1
+        },
+        {
+          "julho/2020": 1
+        },
+        {
+          "agosto/2020": 1
+        },
+        {
+          "setembro/2020": 1
+        },
+        {
+          "outubro/2020": 1
+        },
+        {
+          "novembro/2020": 1
+        },
+        {
+          "dezembro/2020": 1
+        },
+        {
+          "janeiro/2021": 1
+        },
+        {
+          "fevereiro/2021": 1
+        },
+        {
+          "mar\u00e7o/2021": 1
+        },
+        {
+          "abril/2021": 1
+        },
+        {
+          "maio/2021": 1
+        },
+        {
+          "junho/2021": 1
+        },
+        {
+          "julho/2021": 1
+        },
+        {
+          "agosto/2021": 1
+        },
+        {
+          "setembro/2021": 1
+        },
+        {
+          "outubro/2021": 1
+        },
+        {
+          "novembro/2021": 1
+        },
+        {
+          "dezembro/2021": 1
+        },
+        {
+          "janeiro/2022": 1
+        },
+        {
+          "fevereiro/2022": 1
+        },
+        {
+          "mar\u00e7o/2022": 1
+        },
+        {
+          "abril/2022": 1
+        },
+        {
+          "maio/2022": 1
+        },
+        {
+          "junho/2022": 1
+        },
+        {
+          "julho/2022": 1
+        },
+        {
+          "agosto/2022": 1
+        },
+        {
+          "setembro/2022": 1
+        },
+        {
+          "outubro/2022": 1
+        },
+        {
+          "novembro/2022": 1
+        },
+        {
+          "dezembro/2022": 1
+        }
+      ]
+    }
+  }
+]
