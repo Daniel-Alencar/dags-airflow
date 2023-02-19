@@ -1,0 +1,34 @@
+[
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "Golf 2.0/ 2.0 Mi Flex Comfortline Aut.",
+        "Golf Comfortline 1.4 TSI 140cv Aut.",
+        "Golf SILVER EDIT. 2.0 Mi T.Flex 8v Mec.",
+        "Golf Comfortline 1.4 TSI 140cv Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Toyota",
+    "modelos_base": [
+      [
+        "ETIOS CROSS 1.5 Flex 16V 5p Mec.",
+        "ETIOS 1.3 Flex 16V 5p Mec.",
+        "ETIOS PLATINUM 1.5 Flex 16V 5p Mec.",
+        "ETIOS X 1.3 Flex 16V 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelos_base": [
+      [
+        "Lancer 2.0 16V 160cv Aut.",
+        "Lancer GT 2.0 16V 160cv Aut.",
+        "Lancer 2.0 16V 160cv Mec."
+      ]
+    ]
+  }
+]

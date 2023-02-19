@@ -3,7 +3,7 @@ import util
 
 from settings import verbose
 
-ano_considerado = 2015
+ano_considerado = 2016
 mes_busca = "janeiro"
 ano_busca = 2015
 

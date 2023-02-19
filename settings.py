@@ -14,6 +14,7 @@ retry_delay = dt.timedelta(seconds = 20)
 
 ### NÃO PODEM MUDAR
 vehicles_to_search_path = f"{absolute_path}json/vehicles_to_search.json"
+vehicles_only_from_year_path = f"{absolute_path}json/vehicles_only_from"
 vehicles_with_price_path = f"{absolute_path}json/vehicles_with_price.json"
 modelo_atual_path = f"{absolute_path}json/modelo_atual.json"
 incomplete_path = f"{absolute_path}json/incomplete.json"

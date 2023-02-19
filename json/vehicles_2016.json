@@ -1,0 +1,332 @@
+{
+  "vehicles": [
+    {
+      "Hatch compacto": [
+        {
+          "marca": "Chevrolet",
+          "modelo": "Onix"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "HB20"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Ka"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Palio"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Sandero"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Gol"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Fox"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "up!"
+        },
+        {
+          "marca": "Toyota",
+          "modelo": "Etios"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Uno"
+        }
+      ]
+    },
+    {
+      "Sed\u00e3 compacto": [
+        {
+          "marca": "Chevrolet",
+          "modelo": "Prisma"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "HB20S"
+        },
+        {
+          "marca": "Toyota",
+          "modelo": "Etios Sed\u00e3"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Siena"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Ka Sedan"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Logan"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Voyage"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Cobalt"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Versa"
+        },
+        {
+          "marca": "Honda",
+          "modelo": "City"
+        }
+      ]
+    },
+    {
+      "Aventureiro compacto": [
+        {
+          "marca": "Citro\u00ebn",
+          "modelo": "Aircross"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "CrossFox"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Space Cross"
+        }
+      ]
+    },
+    {
+      "SUV compacto": [
+        {
+          "marca": "Honda",
+          "modelo": "HR-V"
+        },
+        {
+          "marca": "Jeep",
+          "modelo": "Renegade"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "EcoSport"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Duster"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Kicks"
+        },
+        {
+          "marca": "Peugeot",
+          "modelo": "2008"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Tracker"
+        },
+        {
+          "marca": "Lifan",
+          "modelo": "X60"
+        },
+        {
+          "marca": "Suzuki",
+          "modelo": "S-Cross"
+        },
+        {
+          "marca": "JAC",
+          "modelo": "T50"
+        }
+      ]
+    },
+    {
+      "Familiar compacto": [
+        {
+          "marca": "Honda",
+          "modelo": "Fit"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Spin"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Weekend"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Idea"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "SpaceFox"
+        },
+        {
+          "marca": "Kia",
+          "modelo": "Soul"
+        },
+        {
+          "marca": "Mini",
+          "modelo": "Clubman"
+        },
+        {
+          "marca": "Citro\u00ebn",
+          "modelo": "C3 Picasso"
+        }
+      ]
+    },
+    {
+      "Picape compacta": [
+        {
+          "marca": "Fiat",
+          "modelo": "Strada"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Saveiro"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Montana"
+        }
+      ]
+    },
+    {
+      "SUV m\u00e9dio": [
+        {
+          "marca": "Hyundai",
+          "modelo": "Tucson"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "ix35"
+        },
+        {
+          "marca": "Jeep",
+          "modelo": "Compass"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "Outlander"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "ASX"
+        },
+        {
+          "marca": "Kia",
+          "modelo": "Sportage"
+        },
+        {
+          "marca": "Audi",
+          "modelo": "Q3"
+        },
+        {
+          "marca": "Land Rover",
+          "modelo": "Discovery Sport"
+        },
+        {
+          "marca": "BMW",
+          "modelo": "X1"
+        },
+        {
+          "marca": "Mercedes-Benz",
+          "modelo": "GLA"
+        }
+      ]
+    },
+    {
+      "Sed\u00e3 m\u00e9dio": [
+        {
+          "marca": "Toyota",
+          "modelo": "Corolla"
+        },
+        {
+          "marca": "Honda",
+          "modelo": "Civic"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Cruze"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Jetta"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Sentra"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Focus Fastback"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Fluence"
+        },
+        {
+          "marca": "Citro\u00ebn",
+          "modelo": "C4 Lounge"
+        },
+        {
+          "marca": "Audi",
+          "modelo": "A3 Sedan"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "Lancer"
+        }
+      ]
+    },
+    {
+      "Picape compacta-m\u00e9dia": [
+        {
+          "marca": "Fiat",
+          "modelo": "Toro"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Oroch"
+        }
+      ]
+    },
+    {
+      "Picape m\u00e9dia": [
+        {
+          "marca": "Toyota",
+          "modelo": "Hilux"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "S10"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Ranger"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "L200 Triton"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Amarok"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Frontier"
+        }
+      ]
+    }
+  ]
+}
