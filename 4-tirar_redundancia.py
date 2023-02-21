@@ -3,8 +3,8 @@ from settings import vehicles_to_search_path, vehicles_only_from_year_path
 
 anos = [ 2016, 2022 ]
 
-vehicles_to_search0 = util.read_json(f"json/vehicles_to_search_{anos[0]}.json")
-vehicles_to_search1 = util.read_json(f"json/vehicles_to_search_{anos[1]}.json")
+vehicles_to_search0 = util.read_json(f"json/vehicles_to_search.json")
+vehicles_to_search1 = util.read_json(f"{vehicles_only_from_year_path}_{anos[0]}.json")
 
 union_vehicles = vehicles_to_search0.copy()
 subtraction_vehicles = vehicles_to_search0.copy()
@@ -16,10 +16,10 @@ for vehicle1 in vehicles_to_search1:
   else:
     subtraction_vehicles.remove(vehicle1)
 
-util.update_json(vehicles_to_search_path, union_vehicles)
+util.update_json("json/union.json", union_vehicles)
 print("Redundância retirada!")
 
-util.update_json(f"{vehicles_only_from_year_path}_{anos[0]}.json", subtraction_vehicles)
+# util.update_json(f"{vehicles_only_from_year_path}_{anos[0]}.json", subtraction_vehicles)
 
 # Contagem da quantidade de modelos para busca
 modelos_base_count = 0
