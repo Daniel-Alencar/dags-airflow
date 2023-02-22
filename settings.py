@@ -7,8 +7,8 @@ verbose = True
 headless = False
 
 # Começa em 0
-computer_id = 4
-mini_batch = 1
+computer_id = 0
+mini_batch = 5
 retries = 30
 retry_delay = dt.timedelta(seconds = 20)
 
@@ -22,7 +22,7 @@ incomplete_to_search_path = f"{absolute_path}json/incomplete_to_search.json"
 data_path = f"{absolute_path}csv/data.csv"
 data_without_null_path = f"{absolute_path}csv/data_without_null.csv"
 
-number_of_computers = 5
+number_of_computers = 1
 number_of_years = 3
 
 meses = [

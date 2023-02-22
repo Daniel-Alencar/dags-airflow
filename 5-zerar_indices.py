@@ -11,7 +11,6 @@ bd = MongoDBWeb(
   vehicles_to_search_length=length,
   number_of_computers=number_of_computers
 )
-bd.delete_all()
 bd.add_indexes()
 
 if verbose:

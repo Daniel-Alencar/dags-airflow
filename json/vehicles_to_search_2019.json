@@ -1,0 +1,506 @@
+[
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "ONIX HATCH LT 1.4 8V FlexPower 5p Aut.",
+        "ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.",
+        "ONIX HATCH LT 1.4 8V FlexPower 5p Mec.",
+        "ONIX Lollapalooza 1.0 F.Power 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Ford",
+    "modelos_base": [
+      [
+        "Ka 1.6 8V Flex 3p",
+        "Ka 1.0 8V/1.0 8V ST Flex 3p",
+        "Ka 1.6 TECNO 8V Flex 3p",
+        "Ka 1.0 SE/SE Plus TiVCT Flex 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Hyundai",
+    "modelos_base": [
+      [
+        "HB20 C.Style/C.Plus 1.6 Flex 16V Aut.",
+        "HB20 Copa do Mundo 1.6 Flex 16V Aut.",
+        "HB20 C./C.Plus/C.Style 1.6 Flex 16V Mec.",
+        "HB20 Copa do Mundo 1.0 Flex 12V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "Golf 2.0/ 2.0 Mi Flex Comfortline Aut.",
+        "Golf Comfortline 1.4 TSI 140cv Aut.",
+        "Golf SILVER EDIT. 2.0 Mi T.Flex 8v Mec.",
+        "Golf Comfortline 1.4 TSI 140cv Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "Polo 2.0 Mi 116cv 8V 5p",
+        "Polo 1.0 Mi 79cv 16V 5p",
+        "Polo GT 2.0 Mi Total Flex 8V 5p",
+        "Polo Classic 1.0 Mi 16v 65cv 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Renault",
+    "modelos_base": [
+      [
+        "SANDERO STEPWAY Hi-Flex 1.6 16V 5p Aut.",
+        "SANDERO Authentique Hi-Flex 1.6 8V 5p",
+        "SANDERO Authentique Hi-Flex 1.0 16V 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "Fox 1.6 Mi I MOTION Total Flex 8V 5p",
+        "Fox 1.0 Mi Total Flex 8V 3p",
+        "Fox 1.6 Mi Total Flex 8V 5p",
+        "Fox 1.0 Mi Total Flex 8V 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "PRISMA Sed. LT 1.4 8V FlexPower 4p Aut.",
+        "PRISMA Sed. LTZ 1.4 8V FlexPower 4p Aut.",
+        "PRISMA Sed. Maxx/ LT 1.4 8V ECONOF. 4p",
+        "PRISMA Sed. ADVANT. 1.0 8V FlexPower 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Hyundai",
+    "modelos_base": [
+      [
+        "HB20S Copa do Mundo 1.6 Flex 16V Aut.",
+        "HB20S Premium 1.6 Flex 16V Aut. 4p",
+        "HB20S C.Plus/C.Style 1.6 Flex 16V Mec.4p",
+        "HB20S Copa do Mundo 1.0 Flex 12V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "VOYAGE CL 1.8",
+        "VOYAGE Trendline 1.0 T.Flex 8V 4p",
+        "VOYAGE GL 1.8 4p (Argentino)",
+        "VOYAGE Comfortline 1.0 T.Flex 8V 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Renault",
+    "modelos_base": [
+      [
+        "LOGAN Authentique Hi-Flex 1.6 8V 4p",
+        "LOGAN Authentique Hi-Flex 1.0 16V 4p",
+        "LOGAN Dyna. EasyR Hi-Flex 1.6 8V",
+        "LOGAN Avantage Hi-Flex 1.0 16V 4p"
+      ]
+    ]
+  },
+  {
+    "marca": "Nissan",
+    "modelos_base": [
+      [
+        "VERSA S 1.6 16V Flex Fuel 4p Mec.",
+        "VERSA SL 1.6 16V Flex Fuel 4p Mec.",
+        "VERSA SV 1.6 16V Flex Fuel 4p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "CAOA Chery",
+    "modelos_base": [
+      [
+        "Tiggo 2.0 16V Aut. 5p",
+        "Tiggo 2.0 16V Mec. 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelos_base": [
+      [
+        "AIRCROSS Exclusive 1.6 Flex 16V 5p Aut.",
+        "AIRCROSS GLX 1.6 Flex 16V 5p Aut.",
+        "AIRCROSS Exclusive 1.6 Flex 16V 5p Mec.",
+        "AIRCROSS GL 1.6 Flex 16V 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "CROSSFOX 1.6 T. Flex 16V 5p",
+        "CROSSFOX I MOTION 1.6 T. Flex 16V 5p",
+        "CROSSFOX 1.6 Mi Total Flex 8V 5p",
+        "CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Ford",
+    "modelos_base": [
+      [
+        "EcoSport FREESTYLE 2.0 16V Flex 5p Aut.",
+        "EcoSport SE 2.0 16V Flex 5p Aut.",
+        "EcoSport XLT 2.0/ 2.0 Flex 16V 5p Mec.",
+        "EcoSport SE 1.6 16V Flex 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Renault",
+    "modelos_base": [
+      [
+        "DUSTER Dynamique 2.0 Flex 16V Aut.",
+        "DUSTER TECHROAD 2.0 Hi-Flex 16V Aut.",
+        "DUSTER Dynamique 2.0 Hi-Flex 16V Mec.",
+        "DUSTER 1.6 Hi-Flex 16V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "TRACKER LTZ 1.8 16V Flex 4x2 Aut.",
+        "TRACKER Freeride 1.8 16V Flex 4x2 Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "SPIN ACTIV 1.8 8V Econo. Flex 5p Aut.",
+        "SPIN ADVANTAGE 1.8 8V Econo.Flex 5p Aut.",
+        "SPIN ACTIV 1.8 8V Econo. Flex 5p Mec.",
+        "SPIN ADVANTAGE 1.8 8V Econo.Flex 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Honda",
+    "modelos_base": [
+      [
+        "Fit DX 1.5 Flexone 16V 5p Aut.",
+        "Fit CX 1.4 Flex 16V 5p Aut.",
+        "Fit DX 1.5 Flexone 16V 5p Mec.",
+        "Fit CX 1.4 Flex 16V 5p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Fiat",
+    "modelos_base": [
+      [
+        "Marea Weekend HLX 2.4 mpi 20V 4p Aut.",
+        "Marea Weekend HLX 2.4 mpi 20V 4p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "SPACEFOX SPORTLINE/HIGHLINE 1.6 T.Flex",
+        "SPACEFOX TREND I MOTION 1.6 T. Flex 8V",
+        "SPACEFOX 1.6/ 1.6 Trend Total Flex 8V 5p",
+        "SPACEFOX COMFORTLINE 1.6 Mi T.Flex 8V 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Kia",
+    "modelos_base": [
+      [
+        "SOUL 1.6/ 1.6 16V FLEX Aut.",
+        "SOUL 1.6/ 1.6 16V FLEX Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Mini",
+    "modelos_base": [
+      [
+        "COOPER Clubman 1.6 Aut.",
+        "COOPER S Clubman 1.6 Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Fiat",
+    "modelos_base": [
+      [
+        "Strada Adv. M. March. 1.8 Flex 16V CD",
+        "Strada 1.3 mpi Fire 8V 67cv CE",
+        "Strada Adv/Adv TRYON 1.8 mpi Flex 8V CE",
+        "Strada 1.3 mpi Fire 8V 67cv CS"
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "Saveiro 2.0 Mi",
+        "Saveiro 1.6 Mi Total Flex 8V CE",
+        "Saveiro TSi 2.0 Mi",
+        "Saveiro 1.6 Mi/ 1.6 Mi Total Flex 8V"
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "MONTANA Sport 1.8 MPFI FlexPower 8V",
+        "MONTANA 1.4 8V Conquest ECONOFLEX 2p",
+        "MONTANA 1.8/ 1.8 Conquest FlexPower 8V",
+        "MONTANA ARENA 1.4 ECONOFLEX 8V 2p"
+      ]
+    ]
+  },
+  {
+    "marca": "Jeep",
+    "modelos_base": [
+      [
+        "COMPASS SPORT 2.0 16V 156cv 5p"
+      ]
+    ]
+  },
+  {
+    "marca": "Hyundai",
+    "modelos_base": [
+      [
+        "ix35 2.0 16V 170cv 2WD/4WD Aut.",
+        "ix35 GLS 2.0 16V 2WD Flex Aut.",
+        "ix35 2.0 16V 170cv 2WD/4WD Mec.",
+        "ix35 2.0 16V 2WD Flex Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "BMW",
+    "modelos_base": [
+      [
+        "X1 XDRIVE 28i 3.0 24V 4x4 Aut.",
+        "X1 SDRIVE 18i 2.0 16V 4x2 Aut.",
+        "X1 XDRIVE 28i 2.0 Turbo 16V 4x4 Aut.",
+        "X1 XDRIVE 28i Sport 2.0 ActiveFlex Aut."
+      ]
+    ]
+  },
+  {
+    "marca": "Toyota",
+    "modelos_base": [
+      [
+        "RAV4 2.5 4x4 16V Aut.",
+        "RAV4 2.0 4x2 16V Aut.",
+        "RAV4 2.0 4x4 16V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Kia",
+    "modelos_base": [
+      [
+        "Sportage EX 2.7 V6 4x4 Aut.",
+        "Sportage 2.0 16V Aut.",
+        "Sportage DLX 2.0 16V Mec.",
+        "Sportage EX 2.0 16V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelos_base": [
+      [
+        "ASX 2.0 16V 160cv Aut.",
+        "ASX 2.0 16V 4x4 160cv Aut.",
+        "ASX 2.0 16V 160cv Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Toyota",
+    "modelos_base": [
+      [
+        "Corolla ALTIS 2.0 Flex 16V Aut.",
+        "Corolla XLi 1.6 16V 110cv Aut.",
+        "Corolla GLi 1.8 Flex 16V Mec.",
+        "Corolla XLi 1.6 16V 110cv Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Honda",
+    "modelos_base": [
+      [
+        "Civic Sedan EXR 2.0 Flexone 16V Aut. 4p",
+        "Civic Sedan EX 1.6 16V Aut. 4p (nacion.)",
+        "Civic Coupe Si 2.4 16V 206cv Mec. 2p",
+        "Civic Sedan EX 1.6 16V Mec. 4p (nacion.)"
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "CRUZE LT 1.8 16V FlexPower 4p Aut.",
+        "CRUZE LTZ 1.8 16V FlexPower 4p Aut.",
+        "CRUZE LT 1.8 16V FlexPower 4p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "JETTA GLX III 2.8 VR6",
+        "JETTA Comfortline 2.0 T.Flex 8V 4p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Nissan",
+    "modelos_base": [
+      [
+        "Sentra 2.0/ 2.0 Flex Fuel 16V Aut.",
+        "Sentra S 2.0/ 2.0 Flex Fuel 16V Aut.",
+        "Sentra 2.0/ 2.0 Flex Fuel 16V Mec.",
+        "Sentra S 2.0/ 2.0 Flex Fuel 16V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Kia",
+    "modelos_base": [
+      [
+        "Cerato 2.0 16V Aut.",
+        "Cerato 1.6 16V Flex Aut.",
+        "Cerato 1.6 16 V Flex Mec.",
+        "Cerato 1.6 16V Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Citro\u00ebn",
+    "modelos_base": [
+      [
+        "C4 LOUNGE Exclusive 2.0 Flex 4p Aut.",
+        "C4 LOUNGE Exclusive 1.6 Turbo 4p Aut.",
+        "C4 LOUNGE Origine 2.0 Flex 4p Mec.",
+        "C4 LOUNGE Tendance 2.0 Flex 4p Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelos_base": [
+      [
+        "Lancer 2.0 16V 160cv Aut.",
+        "Lancer GT 2.0 16V 160cv Aut.",
+        "Lancer 2.0 16V 160cv Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Toyota",
+    "modelos_base": [
+      [
+        "Hilux SW4 SRV 4x4 4.0 V6 24V Aut.",
+        "Hilux CD SR 4x2 2.7 16V/2.7 Flex Aut.",
+        "Hilux CD D4-D 4x4 3.0 TDI Dies. Mec.",
+        "Hilux CD 4x4 2.7 16V Flex Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Chevrolet",
+    "modelos_base": [
+      [
+        "S10 Blazer 4.3 V6",
+        "S10 Blazer DLX 2.2 MPFI / EFI",
+        "S10 Pick-Up LS 2.8 TDI 4x2 CD Dies. Mec.",
+        "S10 Pick-Up LS 2.8 TDI 4x2 CS Dies. Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Ford",
+    "modelos_base": [
+      [
+        "Ranger Limited 3.2 20V 4x4 CD Aut. Dies.",
+        "Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut.",
+        "Ranger XLS 3.2 20V 4x4 CD Diesel Mec.",
+        "Ranger XLS 2.2 4x4 CD Diesel Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Volkswagen",
+    "modelos_base": [
+      [
+        "AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut",
+        "AMAROK Highline CD 2.0 16V TDI 4x4 Dies.",
+        "AMAROK SE CD 2.0 16V TDI 4x4 Diesel",
+        "AMAROK Trendline CD 2.0 16V TDI 4x4 Dies"
+      ]
+    ]
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelos_base": [
+      [
+        "L200 Triton HPE 3.5 CD V6 24V Flex Aut.",
+        "L200 Triton Savana 3.2 CD TBI Dies. Mec.",
+        "L200 Triton HLS 2.4 Flex 16V CD Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "Nissan",
+    "modelos_base": [
+      [
+        "Frontier LE CD 4x4 2.5 TB Diesel Aut.",
+        "Frontier SEL CD 4x4 2.5 TB Diesel Aut.",
+        "Frontier LE CD 4x4 2.5 TB Diesel Mec.",
+        "Frontier SV AT.CD 4x4 2.5 TB Diesel Mec."
+      ]
+    ]
+  },
+  {
+    "marca": "SsangYong",
+    "modelos_base": [
+      [
+        "ACTYON SPORTS 2.0 16V 141cv Diesel",
+        "ACTYON SPORTS 2.0 16V 155cv Diesel"
+      ]
+    ]
+  }
+]

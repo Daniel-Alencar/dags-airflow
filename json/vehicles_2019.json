@@ -1,0 +1,348 @@
+{
+  "vehicles": [
+    {
+      "Hatch compacto": [
+        {
+          "marca": "Chevrolet",
+          "modelo": "Onix"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Ka"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "HB20"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Kwid"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Gol"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Argo"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Polo"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Mobi"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Sandero"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Fox"
+        }
+      ]
+    },
+    {
+      "Sed\u00e3 compacto": [
+        {
+          "marca": "Chevrolet",
+          "modelo": "Prisma"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Ka Sedan"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Virtus"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "HB20S"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Voyage"
+        },
+        {
+          "marca": "Toyota",
+          "modelo": "Yaris Sed\u00e3"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Logan"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Onix Plus"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Cronos"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Versa"
+        }
+      ]
+    },
+    {
+      "Aventureiro compacto": [
+        {
+          "marca": "Honda",
+          "modelo": "WR-V"
+        },
+        {
+          "marca": "CAOA Chery",
+          "modelo": "Tiggo 2"
+        },
+        {
+          "marca": "Citro\u00ebn",
+          "modelo": "Aircross"
+        },
+        {
+          "marca": "JAC",
+          "modelo": "T40"
+        },
+        {
+          "marca": "JAC",
+          "modelo": "iEV 40"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "CrossFox"
+        }
+      ]
+    },
+    {
+      "SUV compacto": [
+        {
+          "marca": "Jeep",
+          "modelo": "Renegade"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "Creta"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Kicks"
+        },
+        {
+          "marca": "Honda",
+          "modelo": "HR-V"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "T-Cross"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "EcoSport"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Captur"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Duster"
+        },
+        {
+          "marca": "Citro\u00ebn",
+          "modelo": "C4 Cactus"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Tracker"
+        }
+      ]
+    },
+    {
+      "Familiar compacto": [
+        {
+          "marca": "Chevrolet",
+          "modelo": "Spin"
+        },
+        {
+          "marca": "Honda",
+          "modelo": "Fit"
+        },
+        {
+          "marca": "Fiat",
+          "modelo": "Weekend"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "SpaceFox"
+        },
+        {
+          "marca": "Kia",
+          "modelo": "Soul"
+        },
+        {
+          "marca": "Mini",
+          "modelo": "Clubman"
+        }
+      ]
+    },
+    {
+      "Picape compacta": [
+        {
+          "marca": "Fiat",
+          "modelo": "Strada"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Saveiro"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Montana"
+        }
+      ]
+    },
+    {
+      "SUV m\u00e9dio": [
+        {
+          "marca": "Jeep",
+          "modelo": "Compass"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Tiguan Allspace"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "ix35"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Equinox"
+        },
+        {
+          "marca": "BMW",
+          "modelo": "X1"
+        },
+        {
+          "marca": "Toyota",
+          "modelo": "RAV4"
+        },
+        {
+          "marca": "Kia",
+          "modelo": "Sportage"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "ASX"
+        },
+        {
+          "marca": "Hyundai",
+          "modelo": "New Tucson"
+        },
+        {
+          "marca": "Volvo",
+          "modelo": "XC60"
+        }
+      ]
+    },
+    {
+      "Sed\u00e3 m\u00e9dio": [
+        {
+          "marca": "Toyota",
+          "modelo": "Corolla"
+        },
+        {
+          "marca": "Honda",
+          "modelo": "Civic"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "Cruze"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Jetta"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Sentra"
+        },
+        {
+          "marca": "Audi",
+          "modelo": "A3 Sedan"
+        },
+        {
+          "marca": "Kia",
+          "modelo": "Cerato"
+        },
+        {
+          "marca": "Citro\u00ebn",
+          "modelo": "C4 Lounge"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "Lancer"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Focus Fastback"
+        }
+      ]
+    },
+    {
+      "Picape compacta-m\u00e9dia": [
+        {
+          "marca": "Fiat",
+          "modelo": "Toro"
+        },
+        {
+          "marca": "Renault",
+          "modelo": "Oroch"
+        }
+      ]
+    },
+    {
+      "Picape m\u00e9dia": [
+        {
+          "marca": "Toyota",
+          "modelo": "Hilux"
+        },
+        {
+          "marca": "Chevrolet",
+          "modelo": "S10"
+        },
+        {
+          "marca": "Ford",
+          "modelo": "Ranger"
+        },
+        {
+          "marca": "Volkswagen",
+          "modelo": "Amarok"
+        },
+        {
+          "marca": "Mitsubishi",
+          "modelo": "L200 Triton"
+        },
+        {
+          "marca": "Nissan",
+          "modelo": "Frontier"
+        },
+        {
+          "marca": "SsangYong",
+          "modelo": "Actyon Sports"
+        },
+        {
+          "marca": "Foton",
+          "modelo": "Tunland"
+        },
+        {
+          "marca": "JAC",
+          "modelo": "iEV 330P"
+        }
+      ]
+    }
+  ]
+}
