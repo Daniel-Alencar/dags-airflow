@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "csv/Base2 comprimida"
+path = "csv/Modelos/Modelo2 comprimido"
 extension = ".csv"
 path_to_dataframe = path + extension
 
@@ -32,7 +32,8 @@ for index, item in data.iterrows():
 # Excluir as linhas desejadas
 for index in rows_indexes_to_delete:
   data.drop(index, axis='index', inplace=True)
+data = data.drop("Indice", axis=1)
 
 # Fazer CSV a partir do novo Dataframe
-path_to_dataframe = path + " " + "(limitada)" + extension
+path_to_dataframe = path + " " + "(limitado)" + extension
 data.to_csv(path_to_dataframe)
