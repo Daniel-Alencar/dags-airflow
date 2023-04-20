@@ -1,1 +1,390 @@
 Marca,Modelo,Ano-modelo,Amplitude
+Chevrolet,Classic ADVANTAGE 1.0 VHC FlexPower 4p,2015.0,0.34
+Chevrolet,Classic Life/LS 1.0 VHC FlexP. 4p,2015.0,-0.09
+Chevrolet,Classic Life/LS 1.0 VHC FlexP. 4p,2016.0,0.01
+Chevrolet,COBALT LT 1.8 8V Econo.Flex 4p Aut.,2015.0,-0.41
+Chevrolet,COBALT LT 1.8 8V Econo.Flex 4p Mec.,2015.0,-0.5
+Chevrolet,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,2015.0,-0.79
+Chevrolet,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,2016.0,0.39
+Chevrolet,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,2017.0,-0.24
+Chevrolet,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,2018.0,-0.13
+Chevrolet,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,2019.0,-0.25
+Chevrolet,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,2020.0,-0.15
+Chevrolet,TRACKER LTZ 1.8 16V Flex 4x2 Aut.,2015.0,-0.07
+Chevrolet,TRACKER LTZ 1.8 16V Flex 4x2 Aut.,2016.0,-0.03
+Chevrolet,SPIN ACTIV 1.8 8V Econo. Flex 5p Aut.,2020.0,-0.24
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2015.0,-0.18
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2016.0,-0.29
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2017.0,0.71
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2018.0,-0.31
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2019.0,-0.45
+Chevrolet,ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.,2015.0,-0.13
+Chevrolet,ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.,2016.0,-0.07
+Chevrolet,ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.,2017.0,0.47
+Chevrolet,ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.,2018.0,0.21
+Chevrolet,ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.,2019.0,-0.44
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2015.0,0.16
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Aut.,2016.0,-3.11
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Mec.,2015.0,0.16
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Mec.,2016.0,-0.35
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Mec.,2017.0,0.25
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Mec.,2018.0,-0.09
+Chevrolet,ONIX HATCH LT 1.4 8V FlexPower 5p Mec.,2019.0,0.34
+Chevrolet,PRISMA Sed. LT 1.4 8V FlexPower 4p Aut.,2015.0,-0.27
+Chevrolet,PRISMA Sed. LT 1.4 8V FlexPower 4p Aut.,2016.0,0.61
+Chevrolet,PRISMA Sed. LT 1.4 8V FlexPower 4p Aut.,2017.0,0.4
+Chevrolet,PRISMA Sed. LT 1.4 8V FlexPower 4p Aut.,2018.0,-0.86
+Chevrolet,PRISMA Sed. LT 1.4 8V FlexPower 4p Aut.,2019.0,-0.16
+Chevrolet,PRISMA Sed. LTZ 1.4 8V FlexPower 4p Aut.,2015.0,-0.17
+Chevrolet,PRISMA Sed. LTZ 1.4 8V FlexPower 4p Aut.,2016.0,0.69
+Chevrolet,PRISMA Sed. LTZ 1.4 8V FlexPower 4p Aut.,2017.0,0.07
+Chevrolet,PRISMA Sed. LTZ 1.4 8V FlexPower 4p Aut.,2018.0,-0.26
+Chevrolet,PRISMA Sed. LTZ 1.4 8V FlexPower 4p Aut.,2019.0,-0.55
+Chevrolet,PRISMA Sed. ADVANT. 1.0 8V FlexPower 4p,2015.0,-0.74
+Chevrolet,SPIN ADVANTAGE 1.8 8V Econo.Flex 5p Aut.,2015.0,0.21
+Chevrolet,SPIN ADVANTAGE 1.8 8V Econo.Flex 5p Aut.,2017.0,0.78
+Chevrolet,SPIN ADVANTAGE 1.8 8V Econo.Flex 5p Aut.,2018.0,-0.13
+Chevrolet,SPIN ACTIV 1.8 8V Econo. Flex 5p Mec.,2015.0,0.26
+Chevrolet,SPIN ACTIV 1.8 8V Econo. Flex 5p Mec.,2016.0,1.07
+Chevrolet,SPIN ADVANTAGE 1.8 8V Econo.Flex 5p Mec.,2015.0,-0.61
+Chevrolet,CRUZE LT 1.8 16V FlexPower 4p Aut.,2015.0,0.01
+Chevrolet,CRUZE LT 1.8 16V FlexPower 4p Aut.,2016.0,-0.28
+Chevrolet,CRUZE LTZ 1.8 16V FlexPower 4p Aut.,2015.0,-0.82
+Chevrolet,CRUZE LTZ 1.8 16V FlexPower 4p Aut.,2016.0,0.45
+Chevrolet,CRUZE LT 1.8 16V FlexPower 4p Mec.,2015.0,0.13
+Citroën,AIRCROSS Exclusive 1.6 Flex 16V 5p Aut.,2015.0,0.45
+Citroën,AIRCROSS Exclusive 1.6 Flex 16V 5p Mec.,2015.0,0.62
+Citroën,C3 Picasso Excl. 1.6 Flex 16V 5p Aut.,2015.0,0.65
+Citroën,C4 LOUNGE Exclusive 1.6 Turbo 4p Aut.,2015.0,0.14
+Citroën,C4 LOUNGE Origine 2.0 Flex 4p Mec.,2015.0,-0.25
+Citroën,C4 LOUNGE Tendance 2.0 Flex 4p Mec.,2015.0,-0.37
+Citroën,C4 LOUNGE Tendance 2.0 Flex 4p Mec.,2016.0,0.56
+Fiat,UNO ATTRACTIVE 1.0 Fire Flex 8V 5p,2015.0,-0.7
+Fiat,UNO ATTRACTIVE 1.0 Fire Flex 8V 5p,2016.0,-0.23
+Fiat,UNO ATTRACTIVE 1.0 Fire Flex 8V 5p,2019.0,-0.44
+Fiat,UNO ATTRACTIVE 1.0 Fire Flex 8V 5p,2020.0,-0.21
+Fiat,Idea Adv./ Adv.LOCK.Dualogic 1.8 Flex 5p,2015.0,-0.21
+Fiat,Idea Adv./ Adv.LOCK.Dualogic 1.8 Flex 5p,2016.0,0.39
+Fiat,Idea Adv./ Adv.LOCK.Dualogic 1.8 Flex 5p,2015.0,0.23
+Fiat,Idea Adv./ Adv.LOCK.Dualogic 1.8 Flex 5p,2016.0,0.56
+Fiat,Idea ATTRACTIVE 1.4 Fire Flex 8V 5p,2015.0,0.23
+Fiat,Idea ATTRACTIVE 1.4 Fire Flex 8V 5p,2016.0,0.56
+Fiat,Idea Advent./ Adv.LOCKER 1.8 mpi Flex 5p,2015.0,0.15
+Fiat,Idea Advent./ Adv.LOCKER 1.8 mpi Flex 5p,2016.0,0.47
+Fiat,Idea ELX 1.4 mpi Fire Flex 8V 5p,2015.0,-0.78
+Fiat,Grand Siena ESSEN. ITALIA Dual. 1.6 Flex,2015.0,-0.63
+Fiat,Grand Siena ATTRAC. 1.4 EVO F.Flex 8V,2015.0,-0.16
+Fiat,Grand Siena ATTRAC. 1.4 EVO F.Flex 8V,2016.0,0.04
+Fiat,Grand Siena ATTRAC. 1.4 EVO F.Flex 8V,2017.0,-0.38
+Fiat,Grand Siena ATTRAC. 1.4 EVO F.Flex 8V,2018.0,0.19
+Fiat,Grand Siena ATTRAC. 1.4 EVO F.Flex 8V,2019.0,-0.3
+Fiat,Grand Siena ATTRAC. 1.4 EVO F.Flex 8V,2020.0,0.41
+Fiat,Grand Siena ESSEN.SUBLIME 1.6 Flex,2015.0,-0.63
+Fiat,Grand Siena ESSEN.SUBLIME 1.6 Flex,2016.0,-0.07
+Fiat,Grand Siena ESSEN.SUBLIME 1.6 Flex,2017.0,-0.51
+Fiat,Grand Siena ESSEN.SUBLIME 1.6 Flex,2018.0,-0.52
+Fiat,Grand Siena TETRAFUEL 1.4 Evo F. Flex 8V,2015.0,-0.21
+Fiat,Grand Siena TETRAFUEL 1.4 Evo F. Flex 8V,2016.0,2.03
+Fiat,Grand Siena TETRAFUEL 1.4 Evo F. Flex 8V,2018.0,1.09
+Fiat,LINEA ESSENCE 1.8 Flex 16V 4p,2015.0,-0.08
+Fiat,LINEA ESSENCE 1.8 Flex 16V 4p,2016.0,0.97
+Ford,EcoSport FREESTYLE 2.0 16V Flex 5p Aut.,2015.0,0.21
+Ford,EcoSport SE 2.0 16V Flex 5p Aut.,2015.0,0.71
+Ford,EcoSport SE 2.0 16V Flex 5p Aut.,2016.0,0.49
+Ford,EcoSport SE 2.0 16V Flex 5p Aut.,2017.0,0.62
+Ford,EcoSport SE 1.6 16V Flex 5p Mec.,2015.0,0.35
+Ford,EcoSport SE 1.6 16V Flex 5p Mec.,2016.0,0.5
+Ford,EcoSport SE 1.6 16V Flex 5p Mec.,2017.0,-0.5
+Ford,Ka 1.0 SE/SE Plus TiVCT Flex 5p,2015.0,-0.78
+Ford,Ka 1.0 SE/SE Plus TiVCT Flex 5p,2016.0,-0.02
+Ford,Ka 1.0 SE/SE Plus TiVCT Flex 5p,2017.0,0.62
+Ford,Ka 1.0 SE/SE Plus TiVCT Flex 5p,2018.0,-0.62
+Ford,Ka 1.0 SE/SE Plus TiVCT Flex 5p,2019.0,0.11
+Ford,Ka 1.0 SE/SE Plus TiVCT Flex 5p,2020.0,-0.61
+Ford,Fiesta 1.6 16V Flex Aut. 5p,2015.0,-0.19
+Ford,Fiesta 1.6 16V Flex Aut. 5p,2016.0,0.3
+Ford,Fiesta Sedan 1.6 16V Flex Aut.,2015.0,-0.13
+Ford,Fiesta Sedan 1.6 16V Flex Aut.,2016.0,-0.03
+Ford,Fiesta 1.6 16V Flex Mec. 5p,2015.0,0.02
+Ford,Fiesta 1.6 16V Flex Mec. 5p,2016.0,0.38
+Ford,Fiesta 1.5 16V Flex Mec. 5p,2015.0,-0.12
+Ford,Fiesta 1.5 16V Flex Mec. 5p,2016.0,-0.48
+Ford,Ranger Limited 3.2 20V 4x4 CD Aut. Dies.,2015.0,0.23
+Ford,Ranger Limited 3.2 20V 4x4 CD Aut. Dies.,2016.0,-0.66
+Ford,Ranger Limited 3.2 20V 4x4 CD Aut. Dies.,2017.0,0.36
+Ford,Ranger Limited 3.2 20V 4x4 CD Aut. Dies.,2018.0,-0.01
+Ford,Ranger Limited 3.2 20V 4x4 CD Aut. Dies.,2019.0,0.19
+Ford,Ranger Limited 3.2 20V 4x4 CD Aut. Dies.,2020.0,-1.33
+Ford,Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut.,2015.0,1.19
+Ford,Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut.,2016.0,0.52
+Ford,Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut.,2017.0,-0.13
+Ford,Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut.,2019.0,0.44
+Ford,Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut.,2020.0,0.57
+Ford,Ranger XLS 3.2 20V 4x4 CD Diesel Mec.,2015.0,-0.76
+Ford,Ranger XLS 3.2 20V 4x4 CD Diesel Mec.,2016.0,0.77
+Ford,Ranger XLS 2.2 4x4 CD Diesel Mec.,2015.0,-1.15
+Ford,Ranger XLS 2.2 4x4 CD Diesel Mec.,2016.0,1.08
+Ford,Ranger XLS 2.2 4x4 CD Diesel Mec.,2017.0,0.64
+Ford,Ranger XLS 2.2 4x4 CD Diesel Mec.,2018.0,-0.04
+Ford,Ranger XLS 2.2 4x4 CD Diesel Mec.,2019.0,-0.04
+Ford,Ranger XLS 2.2 4x4 CD Diesel Mec.,2020.0,-0.27
+Honda,CITY Sedan DX 1.5 Flex 16V Aut.,2016.0,0.94
+Honda,CITY Sedan DX 1.5 Flex 16V Aut.,2017.0,-0.28
+Honda,CITY Sedan EX 1.5 Flex 16V 4p Aut.,2015.0,0.46
+Honda,CITY Sedan EX 1.5 Flex 16V 4p Aut.,2016.0,-0.67
+Honda,CITY Sedan EX 1.5 Flex 16V 4p Aut.,2017.0,-0.47
+Honda,CITY Sedan EX 1.5 Flex 16V 4p Aut.,2018.0,0.12
+Honda,CITY Sedan EX 1.5 Flex 16V 4p Aut.,2019.0,0.5
+Honda,CITY Sedan EX 1.5 Flex 16V 4p Aut.,2020.0,-0.14
+Honda,CITY Sedan DX 1.5 Flex 16V Mec.,2015.0,0.51
+Honda,CITY Sedan DX 1.5 Flex 16V Mec.,2016.0,0.43
+Honda,CITY Sedan DX 1.5 Flex 16V Mec.,2017.0,-0.32
+Honda,CITY Sedan DX 1.5 Flex 16V Mec.,2018.0,1.07
+Honda,CITY Sedan DX 1.5 Flex 16V Mec.,2019.0,0.33
+Honda,CITY Sedan DX 1.5 Flex 16V Mec.,2020.0,-0.34
+Honda,Fit DX 1.5 Flexone 16V 5p Aut.,2015.0,0.34
+Honda,Fit DX 1.5 Flexone 16V 5p Aut.,2016.0,-0.58
+Honda,Fit DX 1.5 Flexone 16V 5p Aut.,2017.0,-0.88
+Honda,Fit CX 1.4 Flex 16V 5p Aut.,2015.0,-0.27
+Honda,Fit CX 1.4 Flex 16V 5p Aut.,2016.0,2.14
+Honda,Fit DX 1.5 Flexone 16V 5p Mec.,2020.0,-4.34
+Honda,Civic Sedan EXR 2.0 Flexone 16V Aut. 4p,2016.0,0.54
+Honda,Civic Coupe Si 2.4 16V 206cv Mec. 2p,2015.0,0.13
+Hyundai,HB20 C.Style/C.Plus 1.6 Flex 16V Aut.,2015.0,-1.03
+Hyundai,HB20 C.Style/C.Plus 1.6 Flex 16V Aut.,2016.0,0.13
+Hyundai,HB20 C.Style/C.Plus 1.6 Flex 16V Aut.,2017.0,-0.33
+Hyundai,HB20 C.Style/C.Plus 1.6 Flex 16V Aut.,2018.0,0.17
+Hyundai,HB20 C.Style/C.Plus 1.6 Flex 16V Aut.,2019.0,-0.07
+Hyundai,HB20 Copa do Mundo 1.6 Flex 16V Aut.,2015.0,-0.03
+Hyundai,HB20 Copa do Mundo 1.6 Flex 16V Aut.,2019.0,0.41
+Hyundai,HB20 C./C.Plus/C.Style 1.6 Flex 16V Mec.,2015.0,-0.4
+Hyundai,HB20 C./C.Plus/C.Style 1.6 Flex 16V Mec.,2016.0,1.11
+Hyundai,HB20 C./C.Plus/C.Style 1.6 Flex 16V Mec.,2017.0,-0.61
+Hyundai,HB20 C./C.Plus/C.Style 1.6 Flex 16V Mec.,2018.0,0.29
+Hyundai,HB20 C./C.Plus/C.Style 1.6 Flex 16V Mec.,2019.0,-0.28
+Hyundai,HB20 Copa do Mundo 1.0 Flex 12V Mec.,2015.0,-0.53
+Hyundai,HB20 Copa do Mundo 1.0 Flex 12V Mec.,2019.0,-0.27
+Hyundai,HB20S Copa do Mundo 1.6 Flex 16V Aut.,2015.0,0.44
+Hyundai,HB20S Copa do Mundo 1.6 Flex 16V Aut.,2019.0,0.4
+Hyundai,HB20S Premium 1.6 Flex 16V Aut. 4p,2015.0,-0.04
+Hyundai,HB20S Premium 1.6 Flex 16V Aut. 4p,2016.0,-1.35
+Hyundai,HB20S Premium 1.6 Flex 16V Aut. 4p,2017.0,-0.12
+Hyundai,HB20S Premium 1.6 Flex 16V Aut. 4p,2018.0,0.43
+Hyundai,HB20S Premium 1.6 Flex 16V Aut. 4p,2019.0,-0.6
+Hyundai,HB20S C.Plus/C.Style 1.6 Flex 16V Mec.4p,2015.0,-0.52
+Hyundai,HB20S C.Plus/C.Style 1.6 Flex 16V Mec.4p,2016.0,-0.35
+Hyundai,HB20S C.Plus/C.Style 1.6 Flex 16V Mec.4p,2017.0,-0.62
+Hyundai,HB20S C.Plus/C.Style 1.6 Flex 16V Mec.4p,2018.0,-0.02
+Hyundai,HB20S C.Plus/C.Style 1.6 Flex 16V Mec.4p,2019.0,-0.12
+Hyundai,HB20S Copa do Mundo 1.0 Flex 12V Mec.,2015.0,0.41
+Hyundai,HB20S Copa do Mundo 1.0 Flex 12V Mec.,2019.0,-0.46
+Hyundai,ix35 GLS 2.0 16V 2WD Flex Aut.,2015.0,0.92
+Hyundai,ix35 GLS 2.0 16V 2WD Flex Aut.,2016.0,0.73
+Hyundai,ix35 GLS 2.0 16V 2WD Flex Aut.,2017.0,1.23
+Hyundai,ix35 GLS 2.0 16V 2WD Flex Aut.,2018.0,2.53
+Hyundai,ix35 GLS 2.0 16V 2WD Flex Aut.,2019.0,1.63
+Jeep,COMPASS SPORT 2.0 16V 156cv 5p,2015.0,0.15
+Kia,SOUL 1.6/ 1.6 16V FLEX Aut.,2015.0,0.51
+Kia,SOUL 1.6/ 1.6 16V FLEX Aut.,2016.0,0.71
+Kia,SOUL 1.6/ 1.6 16V FLEX Aut.,2017.0,1.04
+Kia,SOUL 1.6/ 1.6 16V FLEX Aut.,2018.0,0.31
+Kia,SOUL 1.6/ 1.6 16V FLEX Aut.,2019.0,0.11
+Kia,Sportage 2.0 16V Aut.,2015.0,0.22
+Kia,Sportage 2.0 16V Aut.,2016.0,-0.5
+Kia,Sportage 2.0 16V Aut.,2017.0,-0.6
+Kia,Sportage 2.0 16V Aut.,2018.0,-0.21
+Kia,Cerato 1.6 16V Flex Aut.,2015.0,0.37
+Kia,Cerato 1.6 16V Flex Aut.,2016.0,0.39
+Kia,Cerato 1.6 16V Flex Aut.,2017.0,-0.24
+Kia,Cerato 1.6 16V Flex Aut.,2018.0,0.07
+Kia,Cerato 1.6 16V Flex Aut.,2019.0,0.86
+Land Rover,Range Rover EVOQUE Pure Tech 2.0 Aut. 5p,2015.0,-0.16
+Lifan,X60 1.8 16V 128cv 5p Mec.,2015.0,0.47
+Lifan,X60 1.8 16V 128cv 5p Mec.,2016.0,-0.15
+Lifan,X60 1.8 16V 128cv 5p Mec.,2018.0,-0.47
+Lifan,X60 1.8 16V 128cv 5p Mec.,2019.0,0.12
+Mercedes-Benz,CLA-200 Urban 1.6 TB 16V/Flex Aut.,2015.0,-0.04
+Mercedes-Benz,CLA-200 Urban 1.6 TB 16V/Flex Aut.,2016.0,-0.58
+Mercedes-Benz,CLA-200 Urban 1.6 TB 16V/Flex Aut.,2017.0,-0.62
+Mercedes-Benz,CLA-200 Vision 1.6 TB 16V Flex Aut.,2015.0,-0.3
+Mercedes-Benz,CLA-200 Vision 1.6 TB 16V Flex Aut.,2016.0,-0.68
+Mercedes-Benz,CLA-200 Vision 1.6 TB 16V Flex Aut.,2017.0,0.45
+Mercedes-Benz,CLA-250 Sport 4MATIC 2.0 16V 211cv Aut.,2015.0,-0.33
+Mercedes-Benz,CLA-250 Sport 4MATIC 2.0 16V 211cv Aut.,2016.0,-1.0
+Mercedes-Benz,CLA-250 Sport 4MATIC 2.0 16V 211cv Aut.,2017.0,-0.37
+Mercedes-Benz,CLA-250 Sport 4MATIC 2.0 16V 211cv Aut.,2018.0,-0.64
+Mercedes-Benz,CLA-250 Sport 4MATIC 2.0 16V 211cv Aut.,2019.0,-0.22
+Mercedes-Benz,GLA 200 Vis. Black Ed. 1.6 TB 16V Aut.,2015.0,-0.08
+Mercedes-Benz,CLA-200 First Edition 1.6 TB 16V Aut.,2015.0,-0.06
+Mini,COOPER Countryman S 1.6 Aut.,2015.0,0.9
+Mini,COOPER Countryman S 1.6 Aut.,2016.0,0.85
+Mini,COOPER Countryman S ALL4 1.6 Aut.,2015.0,-0.27
+Mini,COOPER Countryman S ALL4 1.6 Aut.,2016.0,2.14
+Mini,COOPER Countryman S ALL4 1.6 Aut.,2015.0,0.34
+Mini,COOPER Countryman S ALL4 1.6 Aut.,2016.0,-22.48
+Mini,COOPER Countryman S ALL4 1.6 Aut.,2017.0,-0.88
+Mitsubishi,L200 Triton HPE 3.5 CD V6 24V Flex Aut.,2015.0,0.55
+Mitsubishi,L200 Triton HPE 3.5 CD V6 24V Flex Aut.,2016.0,0.65
+Mitsubishi,L200 Triton HPE 3.5 CD V6 24V Flex Aut.,2017.0,0.21
+Mitsubishi,L200 Triton Savana 3.2 CD TBI Dies. Mec.,2015.0,0.11
+Mitsubishi,L200 Triton Savana 3.2 CD TBI Dies. Mec.,2016.0,1.16
+Mitsubishi,L200 Triton Savana 3.2 CD TBI Dies. Mec.,2017.0,-0.18
+Mitsubishi,L200 Triton Savana 3.2 CD TBI Dies. Mec.,2018.0,0.02
+Mitsubishi,L200 Triton HLS 2.4 Flex 16V CD Mec.,2015.0,-0.29
+Mitsubishi,L200 Triton HLS 2.4 Flex 16V CD Mec.,2016.0,0.25
+Mitsubishi,ASX 2.0 16V 160cv Mec.,2015.0,0.4
+Mitsubishi,ASX 2.0 16V 160cv Mec.,2016.0,-0.09
+Mitsubishi,ASX 2.0 16V 160cv Mec.,2017.0,1.48
+Mitsubishi,ASX 2.0 16V 160cv Mec.,2018.0,0.06
+Mitsubishi,OUTLANDER 3.0/ GT 3.0 V6 Aut.,2015.0,0.54
+Mitsubishi,OUTLANDER 3.0/ GT 3.0 V6 Aut.,2016.0,0.05
+Mitsubishi,OUTLANDER 3.0/ GT 3.0 V6 Aut.,2017.0,-0.24
+Mitsubishi,OUTLANDER 3.0/ GT 3.0 V6 Aut.,2018.0,-0.29
+Mitsubishi,OUTLANDER 2.0 16V 160cv Aut.,2015.0,-0.19
+Mitsubishi,OUTLANDER 2.0 16V 160cv Aut.,2016.0,-0.93
+Mitsubishi,OUTLANDER 2.0 16V 160cv Aut.,2017.0,0.31
+Mitsubishi,OUTLANDER 2.0 16V 160cv Aut.,2018.0,0.08
+Mitsubishi,ASX 2.0 16V 160cv Aut.,2015.0,0.54
+Mitsubishi,ASX 2.0 16V 160cv Aut.,2016.0,0.0
+Mitsubishi,ASX 2.0 16V 160cv Aut.,2017.0,0.86
+Mitsubishi,ASX 2.0 16V 4x4 160cv Aut.,2015.0,0.3
+Mitsubishi,ASX 2.0 16V 4x4 160cv Aut.,2016.0,0.55
+Mitsubishi,ASX 2.0 16V 4x4 160cv Aut.,2017.0,0.07
+Mitsubishi,ASX 2.0 16V 160cv Aut.,2015.0,0.3
+Mitsubishi,ASX 2.0 16V 4x4 160cv Aut.,2015.0,0.54
+Mitsubishi,ASX 2.0 16V 4x4 160cv Aut.,2016.0,0.0
+Mitsubishi,ASX 2.0 16V 4x4 160cv Aut.,2017.0,0.86
+Mitsubishi,Lancer 2.0 16V 160cv Aut.,2015.0,0.42
+Mitsubishi,Lancer GT 2.0 16V 160cv Aut.,2015.0,0.67
+Mitsubishi,Lancer GT 2.0 16V 160cv Aut.,2016.0,1.45
+Mitsubishi,Lancer GT 2.0 16V 160cv Aut.,2017.0,0.63
+Mitsubishi,Lancer GT 2.0 16V 160cv Aut.,2018.0,0.81
+Mitsubishi,Lancer 2.0 16V 160cv Mec.,2015.0,0.76
+Mitsubishi,Lancer 2.0 16V 160cv Mec.,2016.0,1.43
+Mitsubishi,Lancer 2.0 16V 160cv Mec.,2017.0,0.49
+Mitsubishi,Lancer 2.0 16V 160cv Mec.,2018.0,0.07
+Nissan,Frontier SV AT.CD 4x4 2.5 TB Diesel Mec.,2015.0,-0.5
+Nissan,Frontier SV AT.CD 4x4 2.5 TB Diesel Mec.,2016.0,0.05
+Nissan,VERSA SL 1.6 16V Flex Fuel 4p Mec.,2016.0,0.38
+Nissan,VERSA SV 1.6 16V Flex Fuel 4p Mec.,2016.0,0.89
+Nissan,Sentra S 2.0/ 2.0 Flex Fuel 16V Mec.,2015.0,-0.11
+Nissan,Sentra S 2.0/ 2.0 Flex Fuel 16V Mec.,2016.0,1.37
+Peugeot,208 Active Pack 1.6 Flex 16V 5p Aut.,2015.0,-0.07
+Peugeot,208 Active Pack 1.6 Flex 16V 5p Aut.,2019.0,0.36
+Peugeot,208 Active Pack 1.6 Flex 16V 5p Aut.,2020.0,-0.3
+Peugeot,208 Griffe 1.6 Flex 16V 5p Aut.,2015.0,-0.27
+Peugeot,208 Griffe 1.6 Flex 16V 5p Aut.,2016.0,0.02
+Peugeot,208 Griffe 1.6 Flex 16V 5p Aut.,2017.0,0.06
+Peugeot,208 Griffe 1.6 Flex 16V 5p Aut.,2018.0,0.22
+Peugeot,208 Griffe 1.6 Flex 16V 5p Aut.,2019.0,-0.1
+Peugeot,208 Griffe 1.6 Flex 16V 5p Aut.,2020.0,-0.65
+Peugeot,208 Griffe 1.6 Flex 16V 5p Mec.,2015.0,0.12
+Peugeot,208 Griffe 1.6 Flex 16V 5p Mec.,2016.0,0.65
+Renault,LOGAN Authentique Hi-Flex 1.0 16V 4p,2015.0,-0.93
+Renault,LOGAN Authentique Hi-Flex 1.0 16V 4p,2016.0,0.15
+Renault,LOGAN Dyna. EasyR Hi-Flex 1.6 8V,2015.0,-0.0
+Renault,LOGAN Dyna. EasyR Hi-Flex 1.6 8V,2016.0,0.73
+Renault,LOGAN Dyna. EasyR Hi-Flex 1.6 8V,2017.0,0.22
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2015.0,0.46
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2016.0,1.12
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2017.0,1.45
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2018.0,1.12
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2019.0,2.39
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2020.0,1.25
+Renault,DUSTER TECHROAD 2.0 Hi-Flex 16V Aut.,2015.0,0.23
+Renault,DUSTER Dynamique 2.0 Hi-Flex 16V Mec.,2015.0,0.23
+Renault,DUSTER Dynamique 2.0 Hi-Flex 16V Mec.,2016.0,0.41
+Renault,DUSTER Dynamique 2.0 Hi-Flex 16V Mec.,2017.0,0.84
+Renault,DUSTER Dynamique 2.0 Hi-Flex 16V Mec.,2018.0,0.61
+Renault,DUSTER Dynamique 2.0 Hi-Flex 16V Mec.,2019.0,2.43
+Renault,DUSTER 1.6 Hi-Flex 16V Mec.,2015.0,-0.22
+Renault,FLUENCE Sed. Dyn. Plus 2.0 16V FLEX Aut.,2015.0,0.59
+Renault,FLUENCE Sed. Dyn. Plus 2.0 16V FLEX Aut.,2016.0,0.54
+Renault,FLUENCE Sed. Dyn. Plus 2.0 16V FLEX Aut.,2017.0,0.47
+Renault,FLUENCE Sed. Dyn. Plus 2.0 16V FLEX Aut.,2018.0,0.84
+Renault,FLUENCE Sed. Dynamique 2.0 16V FLEX Aut.,2015.0,0.6
+Renault,FLUENCE Sed. Dynamique 2.0 16V FLEX Aut.,2016.0,0.01
+Renault,FLUENCE Sed. Dynamique 2.0 16V FLEX Mec.,2015.0,-0.25
+Renault,FLUENCE Sed. Dynamique 2.0 16V FLEX Mec.,2016.0,-0.51
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2018.0,1.12
+Renault,DUSTER Dynamique 2.0 Flex 16V Aut.,2019.0,2.39
+SsangYong,ACTYON SPORTS 2.0 16V 155cv Diesel,2015.0,-0.33
+Toyota,Hilux CD SR 4x2 2.7 16V/2.7 Flex Aut.,2015.0,-0.69
+Toyota,Hilux CD SR 4x2 2.7 16V/2.7 Flex Aut.,2017.0,0.14
+Toyota,Hilux CD SR 4x2 2.7 16V/2.7 Flex Aut.,2018.0,-0.48
+Toyota,Hilux CD SR 4x2 2.7 16V/2.7 Flex Aut.,2019.0,-0.33
+Toyota,Hilux CD SR 4x2 2.7 16V/2.7 Flex Aut.,2020.0,-1.43
+Toyota,Hilux CD D4-D 4x4 3.0 TDI Dies. Mec.,2015.0,-1.07
+Toyota,Hilux CD 4x4 2.7 16V Flex Mec.,2015.0,0.49
+Toyota,RAV4 2.5 4x4 16V Aut.,2015.0,-1.09
+Toyota,RAV4 2.0 4x2 16V Aut.,2015.0,-2.51
+Toyota,RAV4 2.0 4x2 16V Aut.,2018.0,0.84
+Toyota,Corolla ALTIS 2.0 Flex 16V Aut.,2015.0,-0.14
+Toyota,Corolla ALTIS 2.0 Flex 16V Aut.,2016.0,0.47
+Toyota,Corolla ALTIS 2.0 Flex 16V Aut.,2017.0,0.34
+Toyota,Corolla ALTIS 2.0 Flex 16V Aut.,2018.0,0.91
+Toyota,Corolla GLi 1.8 Flex 16V Mec.,2015.0,0.69
+Toyota,Corolla GLi 1.8 Flex 16V Mec.,2016.0,0.42
+Toyota,Corolla GLi 1.8 Flex 16V Mec.,2017.0,-0.15
+Toyota,Corolla XLi 1.6 16V 110cv Mec.,2015.0,0.13
+Toyota,Corolla ALTIS 2.0 Flex 16V Aut.,2019.0,0.44
+Toyota,ETIOS CROSS 1.5 Flex 16V 5p Mec.,2015.0,-0.8
+Toyota,ETIOS CROSS 1.5 Flex 16V 5p Mec.,2016.0,-0.13
+Toyota,ETIOS CROSS 1.5 Flex 16V 5p Mec.,2017.0,-0.35
+Toyota,ETIOS PLATINUM 1.5 Flex 16V 5p Mec.,2015.0,-0.37
+Toyota,ETIOS PLATINUM 1.5 Flex 16V 5p Mec.,2016.0,0.9
+Toyota,ETIOS X 1.3 Flex 16V 5p Mec.,2015.0,-0.9
+Toyota,ETIOS X 1.3 Flex 16V 5p Mec.,2016.0,0.0
+Toyota,ETIOS X 1.3 Flex 16V 5p Mec.,2017.0,0.24
+Toyota,ETIOS X 1.3 Flex 16V 5p Mec.,2018.0,0.07
+Toyota,ETIOS X 1.3 Flex 16V 5p Mec.,2019.0,1.54
+Toyota,ETIOS X 1.3 Flex 16V 5p Mec.,2020.0,-0.47
+Toyota,PRIUS Hybrid 1.8 16V 5p Aut.,2015.0,0.27
+Toyota,PRIUS Hybrid 1.8 16V 5p Aut.,2016.0,-0.56
+Toyota,PRIUS Hybrid 1.8 16V 5p Aut.,2017.0,0.14
+Toyota,PRIUS Hybrid 1.8 16V 5p Aut.,2018.0,0.66
+Toyota,PRIUS Hybrid 1.8 16V 5p Aut.,2019.0,0.28
+Volkswagen,CROSSFOX 1.6 Mi Total Flex 8V 5p,2015.0,-0.42
+Volkswagen,CROSSFOX I MOTION 1.6 Mi T. Flex 8V 5p,2015.0,-0.87
+Volkswagen,Gol (novo) 1.0 Mi Total Flex 8V 4p,2015.0,-0.04
+Volkswagen,Gol (novo) 1.6 Mi Total Flex 8V 4p,2015.0,-0.08
+Volkswagen,up! black/white/red 1.0 T. Flex 12V 5p,2015.0,0.0
+Volkswagen,up! black/white/red 1.0 T. Flex 12V 5p,2016.0,-0.63
+Volkswagen,up! black/white/red I MOTION 1.0 Flex 5p,2015.0,-0.45
+Volkswagen,up! black/white/red I MOTION 1.0 Flex 5p,2016.0,-0.24
+Volkswagen,up! cross 1.0 T. Flex 12V 5p,2015.0,0.04
+Volkswagen,up! cross 1.0 T. Flex 12V 5p,2016.0,0.5
+Volkswagen,up! cross 1.0 T. Flex 12V 5p,2017.0,-1.02
+Volkswagen,up! cross I MOTION 1.0 T.Flex 12V 5p,2015.0,0.45
+Volkswagen,up! cross I MOTION 1.0 T.Flex 12V 5p,2016.0,-0.64
+Volkswagen,up! cross I MOTION 1.0 T.Flex 12V 5p,2017.0,-0.53
+Volkswagen,AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut,2015.0,-1.1
+Volkswagen,AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut,2016.0,0.13
+Volkswagen,AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut,2017.0,-0.85
+Volkswagen,AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut,2018.0,-0.33
+Volkswagen,AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut,2019.0,0.44
+Volkswagen,AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut,2020.0,-2.3
+Volkswagen,AMAROK SE CD 2.0 16V TDI 4x4 Diesel,2015.0,0.02
+Volkswagen,AMAROK SE CD 2.0 16V TDI 4x4 Diesel,2016.0,0.69
+Volkswagen,AMAROK SE CD 2.0 16V TDI 4x4 Diesel,2017.0,0.29
+Volkswagen,AMAROK SE CD 2.0 16V TDI 4x4 Diesel,2018.0,0.04
+Volkswagen,AMAROK SE CD 2.0 16V TDI 4x4 Diesel,2019.0,0.77
+Volkswagen,AMAROK SE CD 2.0 16V TDI 4x4 Diesel,2020.0,-2.99
+Volkswagen,AMAROK Trendline CD 2.0 16V TDI 4x4 Dies,2015.0,-0.84
+Volkswagen,AMAROK Trendline CD 2.0 16V TDI 4x4 Dies,2016.0,0.35
+Volkswagen,AMAROK Trendline CD 2.0 16V TDI 4x4 Dies,2017.0,0.19
+Volkswagen,SPACEFOX 1.6/ 1.6 Trend Total Flex 8V 5p,2015.0,-0.78
+Volkswagen,SPACEFOX COMFORTLINE 1.6 Mi T.Flex 8V 5p,2015.0,0.74
+Volkswagen,SPACEFOX COMFORTLINE 1.6 Mi T.Flex 8V 5p,2016.0,-0.3
+Volkswagen,SPACEFOX COMFORTLINE 1.6 Mi T.Flex 8V 5p,2017.0,-0.49
+Volkswagen,SPACEFOX COMFORTLINE 1.6 Mi T.Flex 8V 5p,2018.0,0.06
+Volkswagen,Saveiro 1.6 Mi/ 1.6 Mi Total Flex 8V,2015.0,0.45
+Volkswagen,VOYAGE Trendline 1.0 T.Flex 8V 4p,2015.0,-1.1
+Volkswagen,VOYAGE Trendline 1.0 T.Flex 8V 4p,2016.0,1.01
+Volkswagen,VOYAGE Trendline 1.0 T.Flex 8V 4p,2017.0,-0.33
+Volkswagen,VOYAGE Comfortline 1.0 T.Flex 8V 4p,2015.0,-0.75
+Volkswagen,VOYAGE Comfortline 1.0 T.Flex 8V 4p,2016.0,-1.18
+Volkswagen,SPACEFOX SPORTLINE/HIGHLINE 1.6 T.Flex,2015.0,0.14
+Volkswagen,SPACEFOX TREND I MOTION 1.6 T. Flex 8V,2015.0,0.56
+Volkswagen,Golf Comfortline 1.4 TSI 140cv Aut.,2015.0,-0.64
+Volkswagen,Golf Comfortline 1.4 TSI 140cv Mec.,2015.0,-0.91
