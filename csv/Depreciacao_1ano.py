@@ -110,5 +110,5 @@ media_outliers = sum(amplitude_outliers) / len(amplitude_outliers)
 media_marcas = sum(amplitude_marcas) / len(amplitude_marcas)
 
 print("")
-print(f"Média das taxas de depreciação dos outliers: {media_outliers}")
-print(f"Média das taxas de depreciação das outras marcas: {media_marcas}")
+print(f"Média das taxas de depreciação dos outliers: {media_outliers}%")
+print(f"Média das taxas de depreciação das outras marcas: {media_marcas}%")
