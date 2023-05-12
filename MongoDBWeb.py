@@ -1,6 +1,9 @@
 import pandas
 import util
 
+from dotenv import load_dotenv
+import os
+
 from pymongo import MongoClient
 from settings import structure_columns, verbose
 from settings import incomplete_path, meses, incomplete_to_search_path
@@ -8,10 +11,11 @@ from settings import data_path
 
 class MongoDBWeb:
   def __init__(self, vehicles_to_search_length=[], number_of_computers=0):
-    self.password = "20deAbril%5Cn"
-    self.user = "Gking"
-    self.cluster = "ic-cluster"
-    self.codigo = "lcpuy5t"
+    load_dotenv()
+    self.password = os.environ['PASSWORD']
+    self.user = os.environ['USER']
+    self.cluster = os.environ['CLUSTER']
+    self.codigo = os.environ['CODIGO']
     
     self.client = MongoClient(
       f"mongodb+srv://{self.user}:{self.password}@{self.cluster}.{self.codigo}.mongodb.net"
